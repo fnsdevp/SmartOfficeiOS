@@ -1,0 +1,44 @@
+PODS:
+  - BEMCheckBox (1.4.0)
+  - FLKAutoLayout (1.0.0)
+  - GoogleMaps (2.3.0):
+    - GoogleMaps/Maps (= 2.3.0)
+  - GoogleMaps/Base (2.3.0)
+  - GoogleMaps/Maps (2.3.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.3.0):
+    - GoogleMaps/Base (= 2.3.0)
+  - JJMaterialTextField (0.1.3)
+  - SOMotionDetector (1.0.2)
+  - Toast (3.1.0)
+  - UIImageView-AGCInitials (0.0.2)
+  - VeeContactPicker (0.0.2):
+    - FLKAutoLayout
+    - UIImageView-AGCInitials
+  - WWCalendarTimeSelector (1.3.13)
+
+DEPENDENCIES:
+  - BEMCheckBox
+  - GoogleMaps
+  - GooglePlaces
+  - JJMaterialTextField
+  - SOMotionDetector
+  - Toast (~> 3.1.0)
+  - VeeContactPicker
+  - WWCalendarTimeSelector
+
+SPEC CHECKSUMS:
+  BEMCheckBox: e18e4a148905b290bd03d98b767651c104f4eda3
+  FLKAutoLayout: 106b14dbae09d32c6730190f4e78a959759ba4a4
+  GoogleMaps: 340a6a0bebd17c2db8abcd3921976c7c53c86cb8
+  GooglePlaces: 74d322c74184ea4576184089b496d291cf0dcd38
+  JJMaterialTextField: 1ae240b5d75966dd0c2acc9f59d1be6f4e83e0e5
+  SOMotionDetector: 50131192a9b9ea76747d0230a7b6f82e5124d8d4
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+  UIImageView-AGCInitials: 4326faf01587dbfa2ffdee7e596ae96c1beca05c
+  VeeContactPicker: ca0b715890e163da45980007eee19185764630b5
+  WWCalendarTimeSelector: 334f8b4ff16367d75fb9f21073203641fbd3d749
+
+PODFILE CHECKSUM: 96982d0ca4de76a05a208389a75f63cefa357747
+
+COCOAPODS: 1.1.1

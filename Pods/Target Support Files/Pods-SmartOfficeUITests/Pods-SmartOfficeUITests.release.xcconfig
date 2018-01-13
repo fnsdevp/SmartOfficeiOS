@@ -1,0 +1,9 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/BEMCheckBox" "$PODS_CONFIGURATION_BUILD_DIR/FLKAutoLayout" "$PODS_CONFIGURATION_BUILD_DIR/JJMaterialTextField" "$PODS_CONFIGURATION_BUILD_DIR/SOMotionDetector" "$PODS_CONFIGURATION_BUILD_DIR/Toast" "$PODS_CONFIGURATION_BUILD_DIR/UIImageView-AGCInitials" "$PODS_CONFIGURATION_BUILD_DIR/VeeContactPicker" "$PODS_CONFIGURATION_BUILD_DIR/WWCalendarTimeSelector"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GoogleMaps" "${PODS_ROOT}/Headers/Public/GooglePlaces"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/BEMCheckBox/BEMCheckBox.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/FLKAutoLayout/FLKAutoLayout.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/JJMaterialTextField/JJMaterialTextField.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SOMotionDetector/SOMotionDetector.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Toast/Toast.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/UIImageView-AGCInitials/UIImageView_AGCInitials.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/VeeContactPicker/VeeContactPicker.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/WWCalendarTimeSelector/WWCalendarTimeSelector.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/GoogleMaps" -isystem "${PODS_ROOT}/Headers/Public/GooglePlaces"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

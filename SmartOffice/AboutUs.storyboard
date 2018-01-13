@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ggi-fi-rKI">
+            <objects>
+                <navigationController id="YTG-67-RSG" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="I94-N0-42T">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="iNV-YF-z3M" kind="relationship" relationship="rootViewController" id="t6g-Zl-c0a"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nAf-Me-C5g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1148" y="134"/>
+        </scene>
+        <!--About Us View Controller-->
+        <scene sceneID="nKD-NF-N2o">
+            <objects>
+                <viewController storyboardIdentifier="AboutUsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="iNV-YF-z3M" customClass="AboutUsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cXF-2r-FtO"/>
+                        <viewControllerLayoutGuide type="bottom" id="Iw3-hT-aPt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1xr-AD-ONr">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="management_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ixf-eF-WW3">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9JW-GF-l86">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="439"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outlet property="delegate" destination="iNV-YF-z3M" id="m9s-tb-NZ2"/>
+                                </connections>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9JW-GF-l86" firstAttribute="top" secondItem="1xr-AD-ONr" secondAttribute="top" id="F5K-Mp-CM4"/>
+                            <constraint firstItem="9JW-GF-l86" firstAttribute="leading" secondItem="Ixf-eF-WW3" secondAttribute="leading" id="IMv-uq-fzA"/>
+                            <constraint firstItem="9JW-GF-l86" firstAttribute="trailing" secondItem="Ixf-eF-WW3" secondAttribute="trailing" id="Nxf-ec-MhF"/>
+                            <constraint firstAttribute="trailing" secondItem="9JW-GF-l86" secondAttribute="trailing" id="cim-pT-hkX"/>
+                            <constraint firstItem="9JW-GF-l86" firstAttribute="leading" secondItem="1xr-AD-ONr" secondAttribute="leading" id="d1n-s8-vfk"/>
+                            <constraint firstItem="Ixf-eF-WW3" firstAttribute="bottom" secondItem="Iw3-hT-aPt" secondAttribute="top" id="irZ-3h-2UI"/>
+                            <constraint firstAttribute="bottom" secondItem="9JW-GF-l86" secondAttribute="bottom" constant="65" id="o2Z-5j-sUf"/>
+                            <constraint firstItem="9JW-GF-l86" firstAttribute="centerY" secondItem="Ixf-eF-WW3" secondAttribute="centerY" constant="-32.5" id="tBK-sH-sNE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="bbw-5I-yhp">
+                        <barButtonItem key="rightBarButtonItem" image="menu" id="9fj-du-kox">
+                            <connections>
+                                <action selector="btnDrawerMenuDidTap:" destination="iNV-YF-z3M" id="n8y-5I-2iw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="aboutUsVw" destination="9JW-GF-l86" id="m9Y-PF-oqY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wkL-DT-SiV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-307.5" y="132.04225352112675"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="management_bg.png" width="1080" height="1920"/>
+        <image name="menu" width="55" height="55"/>
+    </resources>
+</document>

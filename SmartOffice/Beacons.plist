@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>UUID</key>
+		<string>886514BB-867E-49F1-835E-263A3F890C87</string>
+		<key>Major</key>
+		<string>43695</string>
+		<key>Minor</key>
+		<string>65535</string>
+	</dict>
+	<dict>
+		<key>UUID</key>
+		<string>9A7EAD30-664F-47C4-B506-2E49C60BD186</string>
+		<key>Major</key>
+		<string>26034</string>
+		<key>Minor</key>
+		<string>48063</string>
+	</dict>
+	<dict>
+		<key>UUID</key>
+		<string>32594C1C-D0BC-418B-B7CC-365C74507309</string>
+		<key>Major</key>
+		<string>47617</string>
+		<key>Minor</key>
+		<string>47905</string>
+	</dict>
+	<dict>
+		<key>UUID</key>
+		<string>1EFCB633-8793-4F87-8E5F-B7190723528F</string>
+		<key>Major</key>
+		<string>64175</string>
+		<key>Minor</key>
+		<string>65450</string>
+	</dict>
+	<dict>
+		<key>UUID</key>
+		<string>DCD4E18C-1273-4F29-8BEA-CFC6BFA1355F</string>
+		<key>Major</key>
+		<string>21567</string>
+		<key>Minor</key>
+		<string>4274</string>
+	</dict>
+</array>
+</plist>

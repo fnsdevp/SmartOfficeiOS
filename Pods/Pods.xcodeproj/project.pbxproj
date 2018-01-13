@@ -1,0 +1,2839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03BC7C44A0DD8215B92B20511FEABCE1 /* BEMCheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A68DD1DFE34F3113BEE7A691B956220F /* BEMCheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03C52860D9CCD57C5E7EB936A653695D /* WWCalendarTimeSelector.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92C8D7E3C3A59FB3C8A2F8A0E24A038 /* WWCalendarTimeSelector.storyboard */; };
+		08A660BF571355B2B9102E0E44195C52 /* SOStepDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCFC693E7879475108B4949B2793A83 /* SOStepDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08C628AC6CF98F24308D8770F556FC2F /* VeeTableViewSearchDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F431264D24A356496089A56F0CD78438 /* VeeTableViewSearchDelegate.m */; };
+		0F658D9FC8A2098C1C3BC9C302CC21D2 /* VeeContactFactoryProt.h in Headers */ = {isa = PBXBuildFile; fileRef = AB366BF2D8829448476FC776FCE0C1CE /* VeeContactFactoryProt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1414607E38BF88C34A1B79E7ABCBF37E /* NSCalendar+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FECAB39849FA71517DE6CFFBBCCBDB /* NSCalendar+Timepiece.swift */; };
+		16F469A77BF0A1336D8D64EF3CB6A2D3 /* NSObject+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 484E45ABAE82EF1E215E6C47C7D60138 /* NSObject+FLKAutoLayoutDebug.m */; };
+		18F57873BAE949F334DA9D57D020B121 /* BEMAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 26399F6FBAEA7ED1D4F6E623AA349B9E /* BEMAnimationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1997C062E201BAF56AF3D31D8DF6317C /* Toast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34A2E8F3FD84EF8BA91091D1ADBBE72A /* Toast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A0259D6D5A39D04791A845662691CD3 /* FLKAutoLayoutPredicateList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B70BF908F0B5D0BA7382486E4938FDA /* FLKAutoLayoutPredicateList.m */; };
+		1C3FC79817AACFB4214E07242FB07B2A /* UIViewController+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4218D0D523866F5776B04DB300F7D33C /* UIViewController+FLKAutoLayout.m */; };
+		1DE64CED18120A3276F1E0569FD4F76B /* VeeContactProtFactoryProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CB63E157CF87C42C33F16EBD9A99D6 /* VeeContactProtFactoryProducer.m */; };
+		204309C790326FADF5E1CC2CCB19B0F4 /* SOStepDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C346E2E6B7279F9A9588D41E1A08FD8 /* SOStepDetector.m */; };
+		20909B18A454E0797F343764AD7FCA11 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = FD852621D3D4FE791198B1045E4C4E1D /* BEMCheckBoxGroup.m */; };
+		219B310F89675576E7C614B710D27BB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A911426C25E82485D0A9D4D36C8F8A /* Foundation.framework */; };
+		22D7C24B73D6B2B9E5E07A1160667ADE /* UILabel+VeeBoldify.m in Sources */ = {isa = PBXBuildFile; fileRef = 0184D44B11D787A170FDB1BC81505293 /* UILabel+VeeBoldify.m */; };
+		277AA1A6DDAC4A36852252698B297A9E /* UILabel+VeeBoldify.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF9999484031244DE833E304AF5CBF1 /* UILabel+VeeBoldify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2851DD3FDA59F3B49BDC4384802165D9 /* VeeContactProtFactoryProducer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A1F34916386DD1BB50051073C22D683 /* VeeContactProtFactoryProducer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A21C6AC8B79657234EDEC0DF0F7BC63 /* Pods-SmartOfficeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB56F59E8CD8CFB8CF71D20B82037026 /* Pods-SmartOfficeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C6899F9E37B8733E04D3B1A476CB8BA /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4B19EF97EEC8DE3496970F772B2527 /* NSLayoutConstraint+FLKAutoLayoutDebug.m */; };
+		2CB0B1E1702AA372A5F6CE0D72069917 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A911426C25E82485D0A9D4D36C8F8A /* Foundation.framework */; };
+		2ECC00ECEA36405B060C670516910934 /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF588C60A2249CA5AA7E4EEB8039959 /* Toast-dummy.m */; };
+		2FC3C279DEB88A46B480D6A6EEC5F38F /* VeeSectionedArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9585014C903A2A9C60EB9D4F9E92EC94 /* VeeSectionedArrayDataSource.m */; };
+		2FC92405BA93EDBB865648D92F8DC0DD /* Pods-SmartOfficeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11014BF1C0013D4C9E1610C31E8D1BD8 /* Pods-SmartOfficeTests-dummy.m */; };
+		316CDE6A08EDBD88C201486D44D0AFA5 /* VeeSectionable.h in Headers */ = {isa = PBXBuildFile; fileRef = C06DE9E39A7A0B5B4D795E59E2714B28 /* VeeSectionable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34B0F1CED0807608DC7B8F16998D28A4 /* VeeTableViewSearchDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EDF25477C5AB7F377074193A9A05F9BF /* VeeTableViewSearchDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		399A473430818C286AF7C1F0F81AABA8 /* VeePostalAddressProt.h in Headers */ = {isa = PBXBuildFile; fileRef = D892AD87A4CE1E92789311A33FDAC807 /* VeePostalAddressProt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AE02009E5F30200A39BFEEF25D3D016 /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = C3298E7EF3BDAA54E38BBAA144419376 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D36C02E40D94EB10105F0887FFA326B /* VeeSectionedArrayDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = D934D1473ABEB89916A46B9487F5ECD3 /* VeeSectionedArrayDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F4B331558094E9EBADCB4BBE25519C0 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D3C7EE9763BF63BD6587CE117BF99B /* BEMPathManager.m */; };
+		435C933F83E57A870BC44B6925FE1C79 /* FLKAutoLayoutPredicateList.h in Headers */ = {isa = PBXBuildFile; fileRef = 674060BD931C9604F4BCBF4025045A16 /* FLKAutoLayoutPredicateList.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		43CDDF7A150909D7C5F68F3F0B9BCB74 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA18324BA04DA3864C5BFF5D5A11897B /* QuartzCore.framework */; };
+		4A4C1C3C13416D3745C4FFBC279ECA9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A911426C25E82485D0A9D4D36C8F8A /* Foundation.framework */; };
+		4BA8D03DAB06A60FAA34047B520A2019 /* VeeContactPickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7589414B04F05241E13E1382239D2213 /* VeeContactPickerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D81D26E9AE3E75E161EB66BCE81BE2D /* VeeContactFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C8C8E1CA64207079802CC90A3353926 /* VeeContactFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE2D974F20E10950015A9CA93957D15 /* WWCalendarTimeSelectorStoryboardBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 68C253DD9E3D032A49BCB67A2B98EF33 /* WWCalendarTimeSelectorStoryboardBundle.bundle */; };
+		4F44794B9570282D41F05ADA8DBA7270 /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CCA07A35316C08D55A4D117852F2A92 /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50AA856A24765719CFDB6264633FD879 /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19456D7780AA1FC226CB238A37997127 /* Int+Timepiece.swift */; };
+		50B5985954DD0580AE18EDFF4A04807B /* UIView+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 119BE7E9F1B177404CDE2F373511B433 /* UIView+FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		528C56CE29FADD77AB30BB054501C3F1 /* UIView+FLKAutoLayoutPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85836D756C591FB05868378DF621B9A5 /* UIView+FLKAutoLayoutPredicate.m */; };
+		52FE631E5BE7D606D0BEB8CD679AC44B /* WWCalendarTimeSelector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 549A10E7B1F7265DFA24EB3046E707F5 /* WWCalendarTimeSelector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55CF856B8BA12BB2472B08B6D5D9125A /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = A87FACEF9959B1A89B5693149FC516A4 /* BEMCheckBox.m */; };
+		582C34A2CDE5EAEEB5CAE4CF45852DE5 /* VeeABRecordsImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3C48E7CC3D27541F690723FC3760A /* VeeABRecordsImporter.m */; };
+		589ADE393A1F2146AA6E3170E9F29CBE /* SOMotionDetector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27345FB70BCFDAA7E05BE043D6696D0E /* SOMotionDetector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E517D611BECCC4AD5402CB7E3BB4393 /* VeeContact.m in Sources */ = {isa = PBXBuildFile; fileRef = F377DEC1611656BFAC5A56AD912280C0 /* VeeContact.m */; };
+		5E7BF5933C974657A4E3071423F4F2E0 /* UIView+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BF358FD832460E758D1D0DF3DA2D8BF0 /* UIView+FLKAutoLayout.m */; };
+		61C1FC7B72B8EA13A8456C8431D12EAE /* UIViewController+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 44BF58D9A629B772C53AB153258ECE53 /* UIViewController+FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63D4A5155DB9AF73D1BA62499B137634 /* SOMotionDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 729B05B12EF44137F0DD339FAC162777 /* SOMotionDetector.m */; };
+		654A6C544A4F0DB034B80A4379E4C31A /* VeeContactPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 416B1A98E1AB5DDE8EF0DAE3CCAB5E01 /* VeeContactPicker.bundle */; };
+		661ADD728E89D9CEA0877B03BCFE15F2 /* NSObject+VeeCommons.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D2A2795CC91CED82E8204F6428128AE /* NSObject+VeeCommons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A340A7C8BB9FC957E25C0AE62D7491B /* AGCInitialsColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 73396AAB5B00B5EB0B306FAF090CF017 /* AGCInitialsColors.m */; };
+		6E7AC22CF85ED0F39AEAE1F762479A13 /* VeeContactPickerOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4103C349DABFF1C587EFE09CFF593FC /* VeeContactPickerOptions.m */; };
+		72414DCF83EF7896861A767EB1B6E146 /* VeeContactPickerAppearanceConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 29172033199003A5E39BBDC22CAFD462 /* VeeContactPickerAppearanceConstants.m */; };
+		72696DF95282552F2A9A323CA138112A /* VeeABRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2709E47EB4AC41239A67668E8A2FE /* VeeABRecord.m */; };
+		728910E84526BBAE8027EBD7F169F823 /* VeeABRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D784CA581B7DF7B47FCBDF28925D45 /* VeeABRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		738E3EC15CDC2121E544A893BCA5BADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A911426C25E82485D0A9D4D36C8F8A /* Foundation.framework */; };
+		74287C54736D4457D409BF4984FC90C2 /* UIImageView-AGCInitials-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADAD2F46AC39B3DF47E1ABC107707EB /* UIImageView-AGCInitials-dummy.m */; };
+		78E0CD96377549A8AE260628E25E0E53 /* Pods-SmartOfficeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE288553AB872A2AB89019A0A507F2F /* Pods-SmartOfficeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C9CEA2B4CAAF2C812266434BC8F4FBD /* VeeContactUITableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5A161EE3732610408BB6615DB8F2EF /* VeeContactUITableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DEDE022F45E3109C85287F507DBFC92 /* VeeCommons.h in Headers */ = {isa = PBXBuildFile; fileRef = 86ECD493EE460F8FBE87D7E8F5935D70 /* VeeCommons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F840D35B3D57A5527CA18C8821D2066 /* FLKAutoLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C0359BABF4474A098577685E7CF842 /* FLKAutoLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83BDB042DFD92121147751A49E86AADF /* VeeContactPickerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 52DFD65617E3B84F0D0BB79C3F6B679F /* VeeContactPickerOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83FE148056EA1B6F2C22B57731492546 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A911426C25E82485D0A9D4D36C8F8A /* Foundation.framework */; };
+		8A6B44636886520707544BC52CCD2ABF /* BEMPathManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B43F6D54A6F072326B56737651BD0F /* BEMPathManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D34AF33C9124D07998F476A43AFDCE2 /* UIImageView-AGCInitials-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C1F76BA3F1FC50AC7DBEC55F154C6B /* UIImageView-AGCInitials-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D6BE31ACD494807E9386DDFBA01006A /* VeeContactPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 91FCE6690344C1EF940B2F4766CF2220 /* VeeContactPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E945EDD1E927F3E51904A6515CD7E3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A911426C25E82485D0A9D4D36C8F8A /* Foundation.framework */; };
+		906E0B152AA5C525FB5FFA06A71114DD /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894AD8E1BB0ED188FDD1B852E9D9F966 /* Duration.swift */; };
+		9286D618BB22618A814E34F0CBEC9693 /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEDFF812C8CCC319D6AEEE3E9176263 /* String+Timepiece.swift */; };
+		930FAF196BB5B632F6479D2D0D2E4F4D /* SOMotionDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 3102118E90B1E0B67E43E4BB8A7C5E2E /* SOMotionDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		942230A68C7E1E03D9B326DA097EC5EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A911426C25E82485D0A9D4D36C8F8A /* Foundation.framework */; };
+		95E59EC1AA3E74C6BE1928F4A1B5CC14 /* JJMaterialTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 893DF4BEF2630D1079042EA91CA63C8E /* JJMaterialTextfield.m */; };
+		986A05D091DAE8DF08C7292ADEAC17B2 /* FLKAutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F818026297B6B52AD2A0ABA171AC154B /* FLKAutoLayout.framework */; };
+		9A8BC36CCD3769C0DCEB4213A5019BB7 /* BEMCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 064BAA54DC2F1A1A1567074D4241E643 /* BEMCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CFD06CFDA8918C8CBB0AB9AA2F600C5 /* UIImageView+AGCInitials.h in Headers */ = {isa = PBXBuildFile; fileRef = 87844662A38D47886828D139D2FC75D5 /* UIImageView+AGCInitials.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EFE7996331FF70636B1D4E8B14D0A9F /* JJMaterialTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF92D26C52BC5DC1E965411E02D394B /* JJMaterialTextField-dummy.m */; };
+		9F160B1D9E9EDE3912F37E8CA496B5F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A911426C25E82485D0A9D4D36C8F8A /* Foundation.framework */; };
+		A0E760DCF7D4A2464AC50316F1D16BF6 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACD15049D60579618D629F76B387102 /* CoreMotion.framework */; };
+		A4C6D9033F3E2091C4E635268C358970 /* VeeContactPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9127BCFE6BC6F7D1CDEDBFC69074DE0 /* VeeContactPicker-dummy.m */; };
+		A80BA46B97BD1273DAA97821F4DFB963 /* BEMCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB533B59B1EB7E8524532D29B3F32BB7 /* BEMCheckBox-dummy.m */; };
+		A876D4862A475BEB51118A52517CAA3F /* VeeSearchResultsDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 475131EB819724FBB56B2DF4EE6B4F23 /* VeeSearchResultsDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A910A4C164381AD09894A22A554B8D58 /* JJMaterialTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD89E2DBD5B5347364C5BAF2EE4AE8C4 /* JJMaterialTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A95A6C1F07EC5676B2A3D3428F24C5F1 /* Pods-SmartOfficeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 386A1C7AF9BCE1497C517BC36808A2D6 /* Pods-SmartOfficeUITests-dummy.m */; };
+		A9D81C166ADA082F99FC27ACE5DD6DD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A911426C25E82485D0A9D4D36C8F8A /* Foundation.framework */; };
+		AB0CA222483CC4D10E2C64F81F48C434 /* VeeContactPickerAppearanceConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 74868B057EB197EF70425D88D1AE2233 /* VeeContactPickerAppearanceConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC08ACC8E35090E01239B8163297A0EA /* BEMCheckBoxGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE969216A0E71DDA5F0A5DECE636907 /* BEMCheckBoxGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0E605BC2B20A7393FF17AEEDF841F3 /* VeeContactPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4996B8FFFD73BE2CC413A31A8D3EF4CD /* VeeContactPickerViewController.m */; };
+		AD12C19687DF7236A3F9A7BFBEC8629E /* VeePostalAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = F0EC76828B5A629BD91A6010E7DF79F9 /* VeePostalAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B078BF35ED43B191EDCA62B4593A0AB4 /* AGCInitialsColors.h in Headers */ = {isa = PBXBuildFile; fileRef = C8E457EA02C2AA1DE688416468DCF11F /* AGCInitialsColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B49FCFB9B3610E623D7CF2BF5EC61692 /* UIImageView_AGCInitials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB3CD7FD38161B750B69D6AA546543E /* UIImageView_AGCInitials.framework */; };
+		B5F5C38F15520BEFD4DCA00D9600BEBA /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF6917D2F9C8DE60380C385B7752471 /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BAD81FD87DD168A1610ABE1BDE4B7172 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A911426C25E82485D0A9D4D36C8F8A /* Foundation.framework */; };
+		BF5BB6C5CBF58128AE6C9AA5950F2AB1 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CE03635CDCE85ECC0B2ECEF94BF5BB /* BEMAnimationManager.m */; };
+		BFF62EB2A34F18FCFB36406EEEEB38CF /* FLKAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E1BA771F879BFB186985CA0C40D51A /* FLKAutoLayout-dummy.m */; };
+		C19C6AB8B70B600C354DB5AEAFC77DE2 /* VeeContactPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35718D9F21636A9F31B140FDFA646FE8 /* VeeContactPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C28B31BF8E98637163C17FED2F0E8D9D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB21731872A70A01D704D3145009217 /* CoreLocation.framework */; };
+		C5ECA188D41AF3EA5994E8EE3D0B3643 /* VeeABDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7393927454955D72F3D7348732E8A121 /* VeeABDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6E43D1295E481368EF0F14DFB39671C /* NSObject+VeeCommons.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBA908457F66F0D5CDE640F5E9A8F51 /* NSObject+VeeCommons.m */; };
+		C8E208B201C9AA98135381F50485433E /* UIView+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = D099DA872C3C7EC6C98FAE2305DAB455 /* UIView+FLKAutoLayoutDebug.m */; };
+		CE609E9E42048044F8CF0CB976C707F6 /* Pods-SmartOffice-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 950D6B7CBE12E4751B433486B86C033F /* Pods-SmartOffice-dummy.m */; };
+		CF9D5772B573ACCC00D88ADFAE4EB2E0 /* SOMotionDetector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4660953A6526F34A693301634F6B5A85 /* SOMotionDetector-dummy.m */; };
+		D1FE939D13D07E9D3EDA71186CFD13B0 /* VeeContactPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06B59E3AA23DD63E4160498088F3C3DC /* VeeContactPickerViewController.xib */; };
+		D33F7AA84CD6AAA58FF0CA0F6C31DB81 /* VeeContactCellConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 66FC5E81C7997DACB5380A7637E6E991 /* VeeContactCellConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4F0CE603891A1DA06DA4B83D273BA13 /* UIView+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 76674C923CC430AACECF80FB3851C972 /* UIView+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D536F842E17AA7BB67BDEA4DA64170D9 /* VeeContactUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EA39B5B0080198C6B15B827568D14B /* VeeContactUITableViewCell.m */; };
+		D5F4E1833D22180A4A3E3BAFA10396A1 /* VeeContactPickerStrings.h in Headers */ = {isa = PBXBuildFile; fileRef = E18601C78B88B0FD7A055793E8D7B6B6 /* VeeContactPickerStrings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D882A3F9A2E6FE25EA79B03E0AD39456 /* SOLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B633B7737F0C92975A7144A4092566 /* SOLocationManager.m */; };
+		D8F41D9468B01E6940543F2356453634 /* VeeAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = F65B4E40112A36B2ECBCA0AA9F2F6E71 /* VeeAddressBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB8FCABFC2E1BBAB56D2F66F82A6DE8A /* VeeContactCellConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB41E6C4805AEE200235FEDCB8B4625 /* VeeContactCellConfiguration.m */; };
+		DBB5B2E09C037820DBD52D470BEBE9F1 /* VeeContactPickerStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CDB241057A0E1E3B03399F2CF98D9D /* VeeContactPickerStrings.m */; };
+		DCA0B626A03CB895AD9BAC3A0F2ACAE9 /* VeeCommons.m in Sources */ = {isa = PBXBuildFile; fileRef = 4026C56DF292CF6A63BA724B47AA3508 /* VeeCommons.m */; };
+		DF32841A7228FB37DEA0E7DCD010DE89 /* VeeContactProt.h in Headers */ = {isa = PBXBuildFile; fileRef = AFDC378F6185D3F6E07823397A09E2C0 /* VeeContactProt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2628A47F728B01974C0278856EB4142 /* VeePostalAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BD3B1CD385055E7D63E6F08490EC76 /* VeePostalAddress.m */; };
+		E2A5DA411647237B1CC684687FAB248E /* NSDate+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA963C3E1576ABCD11B68AEF2DEBFE9 /* NSDate+Timepiece.swift */; };
+		E2D392D8290C1E525047D2B62D673780 /* VeeAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEFD0F784D5AA97504D80AC5D5C8B2D /* VeeAddressBook.m */; };
+		E41B476CF5EE57921630989EAA0C0145 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A911426C25E82485D0A9D4D36C8F8A /* Foundation.framework */; };
+		EC55AE5C6F528B41D7E6140262D3638D /* JJMaterialTextfield.h in Headers */ = {isa = PBXBuildFile; fileRef = C2173458BCA3A81C3C8CD761C521E17E /* JJMaterialTextfield.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECDD717334B419BE2DE00F8479157EB0 /* VeeContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F5B16E86D7EBD944B97715CC0106ACC /* VeeContact.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDE42101F5279DE53CD60E1C2C631746 /* NSObject+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A61467153AB1F4A5CAECC5074E8B606 /* NSObject+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE3AFB0111FF96173AD831D562097610 /* FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DECD9746B156B320518381688832D80 /* FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE754700942D99EB8B559224CB621A91 /* JJMaterialTextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0FFE64E1C69B83A9B6F106CFE5D9FCA /* JJMaterialTextField.bundle */; };
+		EF47484D8A5F4318C3A3412848119B30 /* UIImageView+AGCInitials.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAD24FBB72431EA1688532C21F34555 /* UIImageView+AGCInitials.m */; };
+		F05A394670D769AF39E695A37850FA14 /* SOLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A972A1EF42F2C8B076AC1D3B2059C56 /* SOLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F11D98BFF5D5D4EFAC2B5E0A74C1AD1B /* Pods-SmartOffice-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E3D943F11C29FE155AB2B42DAC72A1 /* Pods-SmartOffice-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F177DBA02A652DA9D021202DCD9488B2 /* WWCalendarTimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5BE274A3B4663A9A94430C9F198C8D /* WWCalendarTimeSelector.swift */; };
+		F1AD34E699411ACDFD3D8F5B72CC036B /* WWCalendarTimeSelector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3EB5EB67DC934CF942885777086DD2 /* WWCalendarTimeSelector-dummy.m */; };
+		F3C3C3E19B0C54EBED1FB00F9F160ECA /* VeeABRecordsImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3816A25EC55C98408F06715A78F77BB8 /* VeeABRecordsImporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F44E70A3440BBB03E4CFDB0A96F0FFD5 /* edit_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 598CB04C4BCD526B75191F706E0EE0B3 /* edit_button.png */; };
+		F9C947DDCEB74B2CFC542321D223E57F /* VeeContactFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 323F20EE7850C2E6BCD0EEE94313226B /* VeeContactFactory.m */; };
+		FA6B62D7EDE1D3BB109DE86BD37266EA /* UIView+FLKAutoLayoutPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAE5F1951FB45BC236E17A0D2AF0ACB /* UIView+FLKAutoLayoutPredicate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FDADB7B6DFF52DDD89C81571BC308F5F /* NSDateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0D2F8925458CDB3C0AD763140220AB /* NSDateComponents+Timepiece.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		087952FC9CD5FF1CE43DE291AFC297F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D481F3E5E0C80C80F676A2570DD19EA6;
+			remoteInfo = FLKAutoLayout;
+		};
+		2A4E797CD5B79D4211535164CAC9AD3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79AED3B93470BA00DC788863CED630E7;
+			remoteInfo = "UIImageView-AGCInitials";
+		};
+		2B4FF30F595DA49A805DCC9C32932D41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79AED3B93470BA00DC788863CED630E7;
+			remoteInfo = "UIImageView-AGCInitials";
+		};
+		2C75D6D865E541E47554A60544808026 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 171892E643977CACF1C966931DF0970F;
+			remoteInfo = JJMaterialTextField;
+		};
+		514392E0173FFF648CFFEC0B3B36E365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74D8DCE0823E2699B3DEC027456D4AC0;
+			remoteInfo = VeeContactPicker;
+		};
+		6EFA78342FB810308CB9E957315CDA65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C366E9E23E09640A4037C2DB020E88A2;
+			remoteInfo = "JJMaterialTextField-JJMaterialTextField";
+		};
+		830BD6EC5E8B880FE175ED8683DD0E1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04466F4E2E85B9A9B3B4405E1A9C161F;
+			remoteInfo = SOMotionDetector;
+		};
+		8B89C0C9DA3C9DB8D698E8E99E31F147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77AFFB34AF2C035832A4AF49FC82A353;
+			remoteInfo = Toast;
+		};
+		AFCF1D21A8F957D80A507A03B126760C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D481F3E5E0C80C80F676A2570DD19EA6;
+			remoteInfo = FLKAutoLayout;
+		};
+		BEF46D81E79E6F690C84DB4A32D71DB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D302A3C3F87407D4A4E2C9F357984E5D;
+			remoteInfo = "VeeContactPicker-VeeContactPicker";
+		};
+		C2F4EBA26E75CD7CBA01562E8C250806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC19A72FB7D1DB0B2CC5F6C5CF2400F4;
+			remoteInfo = BEMCheckBox;
+		};
+		C697F91F54787087CF6F60339C4F1263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 563519234DD243D4381F40A59D8FDB16;
+			remoteInfo = "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle";
+		};
+		FAB269F557190E370C43C9D320E8CB47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ECD488BD72C0D43A14802B350158ABF;
+			remoteInfo = WWCalendarTimeSelector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0184D44B11D787A170FDB1BC81505293 /* UILabel+VeeBoldify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+VeeBoldify.m"; path = "Pod/Classes/Utils and categories/UILabel+VeeBoldify.m"; sourceTree = "<group>"; };
+		02D3C7EE9763BF63BD6587CE117BF99B /* BEMPathManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMPathManager.m; path = Classes/BEMPathManager.m; sourceTree = "<group>"; };
+		064BAA54DC2F1A1A1567074D4241E643 /* BEMCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBox.h; path = Classes/BEMCheckBox.h; sourceTree = "<group>"; };
+		06B59E3AA23DD63E4160498088F3C3DC /* VeeContactPickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = VeeContactPickerViewController.xib; path = Pod/Assets/VeeContactPickerViewController.xib; sourceTree = "<group>"; };
+		09884D570EB2A0AA7D3C7A7E5DB022D6 /* Pods-SmartOfficeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartOfficeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A310593C619E508B94676A91BF88421 /* VeeContactPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VeeContactPicker.modulemap; sourceTree = "<group>"; };
+		0D1F8868A98351AF918B72A149F02766 /* BEMCheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BEMCheckBox.modulemap; sourceTree = "<group>"; };
+		0D2A2795CC91CED82E8204F6428128AE /* NSObject+VeeCommons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+VeeCommons.h"; path = "Pod/Classes/Utils and categories/NSObject+VeeCommons.h"; sourceTree = "<group>"; };
+		0D327128804DA03097BF83D88E24AEEF /* FLKAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLKAutoLayout.framework; path = FLKAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		103ACA4C99D075E9197B69B5413D1C22 /* VeeContactPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VeeContactPicker.framework; path = VeeContactPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11014BF1C0013D4C9E1610C31E8D1BD8 /* Pods-SmartOfficeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartOfficeTests-dummy.m"; sourceTree = "<group>"; };
+		119BE7E9F1B177404CDE2F373511B433 /* UIView+FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayout.h"; path = "FLKAutoLayout/UIView+FLKAutoLayout.h"; sourceTree = "<group>"; };
+		11F71F428E80EFE176065EA7E08B23A8 /* Pods-SmartOffice-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartOffice-acknowledgements.plist"; sourceTree = "<group>"; };
+		1538C5D137169A63E4941057388D336F /* SOMotionDetector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SOMotionDetector.xcconfig; sourceTree = "<group>"; };
+		1549967139480793F27D114FA95F4C00 /* FLKAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLKAutoLayout.xcconfig; sourceTree = "<group>"; };
+		19456D7780AA1FC226CB238A37997127 /* Int+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Timepiece.swift"; path = "Sources/Int+Timepiece.swift"; sourceTree = "<group>"; };
+		1A1F34916386DD1BB50051073C22D683 /* VeeContactProtFactoryProducer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeContactProtFactoryProducer.h; path = "Pod/Classes/Model/VeeContact Abstract Factory/VeeContactProtFactoryProducer.h"; sourceTree = "<group>"; };
+		1DE288553AB872A2AB89019A0A507F2F /* Pods-SmartOfficeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartOfficeUITests-umbrella.h"; sourceTree = "<group>"; };
+		26399F6FBAEA7ED1D4F6E623AA349B9E /* BEMAnimationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMAnimationManager.h; path = Classes/BEMAnimationManager.h; sourceTree = "<group>"; };
+		27345FB70BCFDAA7E05BE043D6696D0E /* SOMotionDetector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SOMotionDetector-umbrella.h"; sourceTree = "<group>"; };
+		27CE03635CDCE85ECC0B2ECEF94BF5BB /* BEMAnimationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMAnimationManager.m; path = Classes/BEMAnimationManager.m; sourceTree = "<group>"; };
+		27E3D943F11C29FE155AB2B42DAC72A1 /* Pods-SmartOffice-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartOffice-umbrella.h"; sourceTree = "<group>"; };
+		29172033199003A5E39BBDC22CAFD462 /* VeeContactPickerAppearanceConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VeeContactPickerAppearanceConstants.m; path = Pod/Classes/Model/ContactPicker/VeeContactPickerAppearanceConstants.m; sourceTree = "<group>"; };
+		291DA036441D6B1B39235CF4EFB43F5B /* ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-Info.plist"; sourceTree = "<group>"; };
+		2A09DFCE83BFAADDAB4ECF97C199F908 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB21731872A70A01D704D3145009217 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		2ADAD2F46AC39B3DF47E1ABC107707EB /* UIImageView-AGCInitials-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView-AGCInitials-dummy.m"; sourceTree = "<group>"; };
+		2C346E2E6B7279F9A9588D41E1A08FD8 /* SOStepDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOStepDetector.m; path = SOMotionDetector/SOStepDetector.m; sourceTree = "<group>"; };
+		2CE969216A0E71DDA5F0A5DECE636907 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBoxGroup.h; path = Classes/BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		2D9D4FFA86D22EAF2747A3DAA496226D /* Pods_SmartOfficeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmartOfficeUITests.framework; path = "Pods-SmartOfficeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DECD9746B156B320518381688832D80 /* FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLKAutoLayout.h; path = FLKAutoLayout/FLKAutoLayout.h; sourceTree = "<group>"; };
+		2F5B16E86D7EBD944B97715CC0106ACC /* VeeContact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeContact.h; path = Pod/Classes/Model/VeeContact.h; sourceTree = "<group>"; };
+		3102118E90B1E0B67E43E4BB8A7C5E2E /* SOMotionDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOMotionDetector.h; path = SOMotionDetector/SOMotionDetector.h; sourceTree = "<group>"; };
+		323F20EE7850C2E6BCD0EEE94313226B /* VeeContactFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VeeContactFactory.m; path = "Pod/Classes/Model/VeeContact Abstract Factory/VeeContactFactory.m"; sourceTree = "<group>"; };
+		33FECAB39849FA71517DE6CFFBBCCBDB /* NSCalendar+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSCalendar+Timepiece.swift"; path = "Sources/NSCalendar+Timepiece.swift"; sourceTree = "<group>"; };
+		341345E2E5A22AD228DB12E22DF2AD97 /* Pods-SmartOfficeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartOfficeUITests-frameworks.sh"; sourceTree = "<group>"; };
+		34A2E8F3FD84EF8BA91091D1ADBBE72A /* Toast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-umbrella.h"; sourceTree = "<group>"; };
+		35718D9F21636A9F31B140FDFA646FE8 /* VeeContactPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VeeContactPicker-umbrella.h"; sourceTree = "<group>"; };
+		3816A25EC55C98408F06715A78F77BB8 /* VeeABRecordsImporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeABRecordsImporter.h; path = "Pod/Classes/Controller/Address Book/VeeABRecordsImporter.h"; sourceTree = "<group>"; };
+		386A1C7AF9BCE1497C517BC36808A2D6 /* Pods-SmartOfficeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartOfficeUITests-dummy.m"; sourceTree = "<group>"; };
+		3AA3C48E7CC3D27541F690723FC3760A /* VeeABRecordsImporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VeeABRecordsImporter.m; path = "Pod/Classes/Controller/Address Book/VeeABRecordsImporter.m"; sourceTree = "<group>"; };
+		3ABC1A242036990C43B21F22CA691B5C /* Pods-SmartOfficeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SmartOfficeUITests.modulemap"; sourceTree = "<group>"; };
+		3BCA78CD104CA8B0B7FD5B68645833A6 /* UIImageView-AGCInitials.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "UIImageView-AGCInitials.modulemap"; sourceTree = "<group>"; };
+		3F5BE274A3B4663A9A94430C9F198C8D /* WWCalendarTimeSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WWCalendarTimeSelector.swift; path = Sources/WWCalendarTimeSelector.swift; sourceTree = "<group>"; };
+		4026C56DF292CF6A63BA724B47AA3508 /* VeeCommons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VeeCommons.m; path = "Pod/Classes/Utils and categories/VeeCommons.m"; sourceTree = "<group>"; };
+		416B1A98E1AB5DDE8EF0DAE3CCAB5E01 /* VeeContactPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VeeContactPicker.bundle; path = VeeContactPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D6DE6FB1E1A1029054886AC50A8C33 /* Pods-SmartOfficeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SmartOfficeTests.modulemap"; sourceTree = "<group>"; };
+		4218D0D523866F5776B04DB300F7D33C /* UIViewController+FLKAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FLKAutoLayout.m"; path = "FLKAutoLayout/UIViewController+FLKAutoLayout.m"; sourceTree = "<group>"; };
+		44BF58D9A629B772C53AB153258ECE53 /* UIViewController+FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+FLKAutoLayout.h"; path = "FLKAutoLayout/UIViewController+FLKAutoLayout.h"; sourceTree = "<group>"; };
+		458475EFD06D9453E5847BCA08BC5233 /* Pods-SmartOfficeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartOfficeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4660953A6526F34A693301634F6B5A85 /* SOMotionDetector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SOMotionDetector-dummy.m"; sourceTree = "<group>"; };
+		475131EB819724FBB56B2DF4EE6B4F23 /* VeeSearchResultsDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeSearchResultsDelegate.h; path = "Pod/Classes/Controller/ViewController/View Controller utils/VeeSearchResultsDelegate.h"; sourceTree = "<group>"; };
+		47BD3B1CD385055E7D63E6F08490EC76 /* VeePostalAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VeePostalAddress.m; path = Pod/Classes/Model/VeePostalAddress.m; sourceTree = "<group>"; };
+		484E45ABAE82EF1E215E6C47C7D60138 /* NSObject+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/NSObject+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
+		4996B8FFFD73BE2CC413A31A8D3EF4CD /* VeeContactPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VeeContactPickerViewController.m; path = Pod/Classes/Controller/ViewController/VeeContactPickerViewController.m; sourceTree = "<group>"; };
+		4BEDFF812C8CCC319D6AEEE3E9176263 /* String+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Timepiece.swift"; path = "Sources/String+Timepiece.swift"; sourceTree = "<group>"; };
+		4C8C8E1CA64207079802CC90A3353926 /* VeeContactFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeContactFactory.h; path = "Pod/Classes/Model/VeeContact Abstract Factory/VeeContactFactory.h"; sourceTree = "<group>"; };
+		4E67D613264BD07BCCA335F8BF397448 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EA963C3E1576ABCD11B68AEF2DEBFE9 /* NSDate+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDate+Timepiece.swift"; path = "Sources/NSDate+Timepiece.swift"; sourceTree = "<group>"; };
+		4FA2709E47EB4AC41239A67668E8A2FE /* VeeABRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VeeABRecord.m; path = Pod/Classes/Model/VeeABRecord.m; sourceTree = "<group>"; };
+		505EFC7954871720C933846B09FC10B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		510EE65558CACAED2EE9F1BF1D2CC27A /* Toast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Toast.modulemap; sourceTree = "<group>"; };
+		52D784CA581B7DF7B47FCBDF28925D45 /* VeeABRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeABRecord.h; path = Pod/Classes/Model/VeeABRecord.h; sourceTree = "<group>"; };
+		52DFD65617E3B84F0D0BB79C3F6B679F /* VeeContactPickerOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeContactPickerOptions.h; path = Pod/Classes/Model/ContactPicker/VeeContactPickerOptions.h; sourceTree = "<group>"; };
+		549A10E7B1F7265DFA24EB3046E707F5 /* WWCalendarTimeSelector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WWCalendarTimeSelector-umbrella.h"; sourceTree = "<group>"; };
+		550BAFCA46E469CF807030353C4D1457 /* Pods-SmartOffice-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartOffice-acknowledgements.markdown"; sourceTree = "<group>"; };
+		570565F7E1B3BD8061060E4182E24E25 /* UIImageView-AGCInitials-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView-AGCInitials-prefix.pch"; sourceTree = "<group>"; };
+		5886571BD1252C2392F5214E8F017047 /* Pods-SmartOfficeUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartOfficeUITests-resources.sh"; sourceTree = "<group>"; };
+		58E1BA771F879BFB186985CA0C40D51A /* FLKAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLKAutoLayout-dummy.m"; sourceTree = "<group>"; };
+		598CB04C4BCD526B75191F706E0EE0B3 /* edit_button.png */ = {isa = PBXFileReference; includeInIndex = 1; name = edit_button.png; path = Pod/Assets/edit_button.png; sourceTree = "<group>"; };
+		5C91A71BC8E9C5CCFF196D5FD0732E11 /* Pods-SmartOfficeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartOfficeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CCA07A35316C08D55A4D117852F2A92 /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/Toast/UIView+Toast.h"; sourceTree = "<group>"; };
+		5DAE5F1951FB45BC236E17A0D2AF0ACB /* UIView+FLKAutoLayoutPredicate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutPredicate.h"; path = "FLKAutoLayout/Private/UIView+FLKAutoLayoutPredicate.h"; sourceTree = "<group>"; };
+		601DB49B596EA851ED15AAD8908FB81C /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		62A911426C25E82485D0A9D4D36C8F8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		63C0359BABF4474A098577685E7CF842 /* FLKAutoLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLKAutoLayout-umbrella.h"; sourceTree = "<group>"; };
+		63CD781EC98BD05653A311B18F0F7979 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		66FC5E81C7997DACB5380A7637E6E991 /* VeeContactCellConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeContactCellConfiguration.h; path = Pod/Classes/Controller/ViewController/UITableViewCells/VeeContactCellConfiguration.h; sourceTree = "<group>"; };
+		674060BD931C9604F4BCBF4025045A16 /* FLKAutoLayoutPredicateList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLKAutoLayoutPredicateList.h; path = FLKAutoLayout/Private/FLKAutoLayoutPredicateList.h; sourceTree = "<group>"; };
+		68C253DD9E3D032A49BCB67A2B98EF33 /* WWCalendarTimeSelectorStoryboardBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WWCalendarTimeSelectorStoryboardBundle.bundle; path = WWCalendarTimeSelectorStoryboardBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C1F76BA3F1FC50AC7DBEC55F154C6B /* UIImageView-AGCInitials-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView-AGCInitials-umbrella.h"; sourceTree = "<group>"; };
+		6AB3CD7FD38161B750B69D6AA546543E /* UIImageView_AGCInitials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIImageView_AGCInitials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4B19EF97EEC8DE3496970F772B2527 /* NSLayoutConstraint+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/Private/NSLayoutConstraint+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
+		6E3093C19BE806B239360DAC3A8EE566 /* Pods-SmartOffice-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartOffice-resources.sh"; sourceTree = "<group>"; };
+		6E5DEB95925F16C458548E668CB74C57 /* Pods-SmartOfficeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartOfficeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F5A161EE3732610408BB6615DB8F2EF /* VeeContactUITableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeContactUITableViewCell.h; path = Pod/Classes/Controller/ViewController/UITableViewCells/VeeContactUITableViewCell.h; sourceTree = "<group>"; };
+		6F9665569EEC8257F53B6173A40B945A /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		6FF6917D2F9C8DE60380C385B7752471 /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/Toast/UIView+Toast.m"; sourceTree = "<group>"; };
+		711DD4427A17A538ABE5BB13EBCBA7EB /* Toast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.xcconfig; sourceTree = "<group>"; };
+		71D2FA1F54C8DDE7528D4BA6D379C960 /* WWCalendarTimeSelector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WWCalendarTimeSelector.modulemap; sourceTree = "<group>"; };
+		729B05B12EF44137F0DD339FAC162777 /* SOMotionDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOMotionDetector.m; path = SOMotionDetector/SOMotionDetector.m; sourceTree = "<group>"; };
+		73396AAB5B00B5EB0B306FAF090CF017 /* AGCInitialsColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGCInitialsColors.m; path = Pod/Classes/AGCInitialsColors.m; sourceTree = "<group>"; };
+		7393927454955D72F3D7348732E8A121 /* VeeABDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeABDelegate.h; path = "Pod/Classes/Controller/Address Book/VeeABDelegate.h"; sourceTree = "<group>"; };
+		73B633B7737F0C92975A7144A4092566 /* SOLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOLocationManager.m; path = SOMotionDetector/SOLocationManager.m; sourceTree = "<group>"; };
+		74868B057EB197EF70425D88D1AE2233 /* VeeContactPickerAppearanceConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeContactPickerAppearanceConstants.h; path = Pod/Classes/Model/ContactPicker/VeeContactPickerAppearanceConstants.h; sourceTree = "<group>"; };
+		74BADE71FA9108B09B15C6A332F166B7 /* VeeContactPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VeeContactPicker-prefix.pch"; sourceTree = "<group>"; };
+		7589414B04F05241E13E1382239D2213 /* VeeContactPickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeContactPickerDelegate.h; path = Pod/Classes/Controller/ViewController/VeeContactPickerDelegate.h; sourceTree = "<group>"; };
+		76674C923CC430AACECF80FB3851C972 /* UIView+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
+		7A8B6C6F74764474498124EFF01C064C /* BEMCheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-prefix.pch"; sourceTree = "<group>"; };
+		7BE3805D4FB14E235662EA83711D9628 /* Pods-SmartOffice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartOffice.release.xcconfig"; sourceTree = "<group>"; };
+		7DCD1418A3C452B94BF935F64E1B9D80 /* UIImageView_AGCInitials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIImageView_AGCInitials.framework; path = "UIImageView-AGCInitials.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE6C31361A6D5108A387154C9386F5F /* Pods_SmartOffice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmartOffice.framework; path = "Pods-SmartOffice.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCFC693E7879475108B4949B2793A83 /* SOStepDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOStepDetector.h; path = SOMotionDetector/SOStepDetector.h; sourceTree = "<group>"; };
+		805276E521483F234CB2619EAC62D80F /* SOMotionDetector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SOMotionDetector-prefix.pch"; sourceTree = "<group>"; };
+		8275F8CD3A9D95080118667889D98B7D /* WWCalendarTimeSelector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WWCalendarTimeSelector.xcconfig; sourceTree = "<group>"; };
+		8458F8A742FA64787E31D43D7995A962 /* Pods-SmartOfficeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartOfficeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		85836D756C591FB05868378DF621B9A5 /* UIView+FLKAutoLayoutPredicate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutPredicate.m"; path = "FLKAutoLayout/Private/UIView+FLKAutoLayoutPredicate.m"; sourceTree = "<group>"; };
+		86ECD493EE460F8FBE87D7E8F5935D70 /* VeeCommons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeCommons.h; path = "Pod/Classes/Utils and categories/VeeCommons.h"; sourceTree = "<group>"; };
+		87844662A38D47886828D139D2FC75D5 /* UIImageView+AGCInitials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AGCInitials.h"; path = "Pod/Classes/UIImageView+AGCInitials.h"; sourceTree = "<group>"; };
+		893DF4BEF2630D1079042EA91CA63C8E /* JJMaterialTextfield.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JJMaterialTextfield.m; path = Pod/Classes/JJMaterialTextfield.m; sourceTree = "<group>"; };
+		894AD8E1BB0ED188FDD1B852E9D9F966 /* Duration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Duration.swift; path = Sources/Duration.swift; sourceTree = "<group>"; };
+		8A61467153AB1F4A5CAECC5074E8B606 /* NSObject+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/NSObject+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
+		8ACD15049D60579618D629F76B387102 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		8B70BF908F0B5D0BA7382486E4938FDA /* FLKAutoLayoutPredicateList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLKAutoLayoutPredicateList.m; path = FLKAutoLayout/Private/FLKAutoLayoutPredicateList.m; sourceTree = "<group>"; };
+		91FCE6690344C1EF940B2F4766CF2220 /* VeeContactPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeContactPickerViewController.h; path = Pod/Classes/Controller/ViewController/VeeContactPickerViewController.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		950D6B7CBE12E4751B433486B86C033F /* Pods-SmartOffice-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartOffice-dummy.m"; sourceTree = "<group>"; };
+		9536F4669581F2CF7257932BAEC22713 /* WWCalendarTimeSelector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WWCalendarTimeSelector-prefix.pch"; sourceTree = "<group>"; };
+		9585014C903A2A9C60EB9D4F9E92EC94 /* VeeSectionedArrayDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VeeSectionedArrayDataSource.m; path = "Pod/Classes/Controller/ViewController/View Controller utils/VeeSectionedArrayDataSource.m"; sourceTree = "<group>"; };
+		98F5948B32A37757FAF611C8BC9E1E8E /* Pods-SmartOfficeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartOfficeTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A972A1EF42F2C8B076AC1D3B2059C56 /* SOLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOLocationManager.h; path = SOMotionDetector/SOLocationManager.h; sourceTree = "<group>"; };
+		9DCB36FB1D6108D442174AD40E09877F /* SOMotionDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SOMotionDetector.framework; path = SOMotionDetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9D3664E683755D0FB462542B4240BB /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		A0464F073EB0C7693A4E61268AE9377F /* Pods-SmartOffice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartOffice.debug.xcconfig"; sourceTree = "<group>"; };
+		A30C9DCA142916063E91801D267954EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5B43F6D54A6F072326B56737651BD0F /* BEMPathManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMPathManager.h; path = Classes/BEMPathManager.h; sourceTree = "<group>"; };
+		A68DD1DFE34F3113BEE7A691B956220F /* BEMCheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-umbrella.h"; sourceTree = "<group>"; };
+		A84C223F30DA0B467CA834B5CC342AB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8720B413780B6127BDD8BD1047479DC /* BEMCheckBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BEMCheckBox.framework; path = BEMCheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87FACEF9959B1A89B5693149FC516A4 /* BEMCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBox.m; path = Classes/BEMCheckBox.m; sourceTree = "<group>"; };
+		A9075F3B8F954F45625557A310B4F179 /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
+		AA18324BA04DA3864C5BFF5D5A11897B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		AAF588C60A2249CA5AA7E4EEB8039959 /* Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-dummy.m"; sourceTree = "<group>"; };
+		AB366BF2D8829448476FC776FCE0C1CE /* VeeContactFactoryProt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeContactFactoryProt.h; path = "Pod/Classes/Model/VeeContact Abstract Factory/VeeContactFactoryProt.h"; sourceTree = "<group>"; };
+		AD31B35BA6E0CCC2CC3ED75C4EDE83A4 /* FLKAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLKAutoLayout-prefix.pch"; sourceTree = "<group>"; };
+		ADEC318217A6A5F2687071499F2CAA0D /* FLKAutoLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FLKAutoLayout.modulemap; sourceTree = "<group>"; };
+		AFDC378F6185D3F6E07823397A09E2C0 /* VeeContactProt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeContactProt.h; path = Pod/Classes/Model/VeeContactProt.h; sourceTree = "<group>"; };
+		B0FFE64E1C69B83A9B6F106CFE5D9FCA /* JJMaterialTextField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JJMaterialTextField.bundle; path = JJMaterialTextField.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B104ABEC4F30B1FA0AA5B5EC18947704 /* Pods-SmartOffice.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SmartOffice.modulemap"; sourceTree = "<group>"; };
+		B43B50D1F39622F1986368C044C7487F /* SOMotionDetector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SOMotionDetector.modulemap; sourceTree = "<group>"; };
+		B6F02D6E33C1A0DFF973FAF9E9F83EDC /* JJMaterialTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJMaterialTextField-prefix.pch"; sourceTree = "<group>"; };
+		B7694E5DC68C3E3B51F3689A5B2F8EAC /* Pods-SmartOfficeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartOfficeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B785780807DF00A27099F633DBF124A5 /* Pods-SmartOffice-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartOffice-frameworks.sh"; sourceTree = "<group>"; };
+		B7A85A4AF709A3FE71313BE49582931A /* VeeContactPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VeeContactPicker.xcconfig; sourceTree = "<group>"; };
+		B963FE0C750CF447E29180A0589A7276 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3EB5EB67DC934CF942885777086DD2 /* WWCalendarTimeSelector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WWCalendarTimeSelector-dummy.m"; sourceTree = "<group>"; };
+		BF358FD832460E758D1D0DF3DA2D8BF0 /* UIView+FLKAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayout.m"; path = "FLKAutoLayout/UIView+FLKAutoLayout.m"; sourceTree = "<group>"; };
+		BF4300C23179CDE22980FCAAF6351688 /* JJMaterialTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JJMaterialTextField.xcconfig; sourceTree = "<group>"; };
+		BFF92D26C52BC5DC1E965411E02D394B /* JJMaterialTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JJMaterialTextField-dummy.m"; sourceTree = "<group>"; };
+		C06DE9E39A7A0B5B4D795E59E2714B28 /* VeeSectionable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeSectionable.h; path = Pod/Classes/Model/VeeSectionable.h; sourceTree = "<group>"; };
+		C0F4CE62336AF0212CF2352DBC92FB50 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		C2173458BCA3A81C3C8CD761C521E17E /* JJMaterialTextfield.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JJMaterialTextfield.h; path = Pod/Classes/JJMaterialTextfield.h; sourceTree = "<group>"; };
+		C3298E7EF3BDAA54E38BBAA144419376 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/Private/NSLayoutConstraint+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
+		C4103C349DABFF1C587EFE09CFF593FC /* VeeContactPickerOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VeeContactPickerOptions.m; path = Pod/Classes/Model/ContactPicker/VeeContactPickerOptions.m; sourceTree = "<group>"; };
+		C8E457EA02C2AA1DE688416468DCF11F /* AGCInitialsColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGCInitialsColors.h; path = Pod/Classes/AGCInitialsColors.h; sourceTree = "<group>"; };
+		C95F33ABBCE03D2EDBF91EC0003235F0 /* Pods-SmartOfficeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartOfficeTests-resources.sh"; sourceTree = "<group>"; };
+		CB56F59E8CD8CFB8CF71D20B82037026 /* Pods-SmartOfficeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartOfficeTests-umbrella.h"; sourceTree = "<group>"; };
+		CCF9999484031244DE833E304AF5CBF1 /* UILabel+VeeBoldify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+VeeBoldify.h"; path = "Pod/Classes/Utils and categories/UILabel+VeeBoldify.h"; sourceTree = "<group>"; };
+		CD89E2DBD5B5347364C5BAF2EE4AE8C4 /* JJMaterialTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJMaterialTextField-umbrella.h"; sourceTree = "<group>"; };
+		CE457BBDA2C12FC49DB5617C92EFAFAE /* Toast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast.framework; path = Toast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5755B0E695E6D58179EDFDB25407BD /* Pods-SmartOfficeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartOfficeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFEFD0F784D5AA97504D80AC5D5C8B2D /* VeeAddressBook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VeeAddressBook.m; path = "Pod/Classes/Controller/Address Book/VeeAddressBook.m"; sourceTree = "<group>"; };
+		D099DA872C3C7EC6C98FAE2305DAB455 /* UIView+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
+		D3777E54D3BF38F20AD8514F52BC664C /* Pods-SmartOfficeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartOfficeTests-frameworks.sh"; sourceTree = "<group>"; };
+		D4F5C70F9282A22542F42664CF44C0BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D852C4E8DDCE028C20E6E275F1F6AFE0 /* Pods_SmartOfficeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmartOfficeTests.framework; path = "Pods-SmartOfficeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D892AD87A4CE1E92789311A33FDAC807 /* VeePostalAddressProt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeePostalAddressProt.h; path = Pod/Classes/Model/VeePostalAddressProt.h; sourceTree = "<group>"; };
+		D934D1473ABEB89916A46B9487F5ECD3 /* VeeSectionedArrayDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeSectionedArrayDataSource.h; path = "Pod/Classes/Controller/ViewController/View Controller utils/VeeSectionedArrayDataSource.h"; sourceTree = "<group>"; };
+		DB533B59B1EB7E8524532D29B3F32BB7 /* BEMCheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEMCheckBox-dummy.m"; sourceTree = "<group>"; };
+		DBBA908457F66F0D5CDE640F5E9A8F51 /* NSObject+VeeCommons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+VeeCommons.m"; path = "Pod/Classes/Utils and categories/NSObject+VeeCommons.m"; sourceTree = "<group>"; };
+		DD1B47624C8AC1012E3A9BEB41825410 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE0D03F80685AAB9B64F1EF18BD92320 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFAD24FBB72431EA1688532C21F34555 /* UIImageView+AGCInitials.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AGCInitials.m"; path = "Pod/Classes/UIImageView+AGCInitials.m"; sourceTree = "<group>"; };
+		E18601C78B88B0FD7A055793E8D7B6B6 /* VeeContactPickerStrings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeContactPickerStrings.h; path = Pod/Classes/Model/ContactPicker/VeeContactPickerStrings.h; sourceTree = "<group>"; };
+		E4F6089951BD3A8F0686031F5655DE18 /* JJMaterialTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JJMaterialTextField.modulemap; sourceTree = "<group>"; };
+		E512558ADC6A4BFFDFF3DB2B7ABEE70A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E63F4E4E23CA6D9234A0317840F8931B /* WWCalendarTimeSelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WWCalendarTimeSelector.framework; path = WWCalendarTimeSelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6CDB241057A0E1E3B03399F2CF98D9D /* VeeContactPickerStrings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VeeContactPickerStrings.m; path = Pod/Classes/Model/ContactPicker/VeeContactPickerStrings.m; sourceTree = "<group>"; };
+		E852EFD2B3BF34604867890DCAE35D61 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		E9127BCFE6BC6F7D1CDEDBFC69074DE0 /* VeeContactPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VeeContactPicker-dummy.m"; sourceTree = "<group>"; };
+		EB3D929B7C29FCF87D7CC80F7B1A3330 /* ResourceBundle-JJMaterialTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JJMaterialTextField-Info.plist"; sourceTree = "<group>"; };
+		ECB41E6C4805AEE200235FEDCB8B4625 /* VeeContactCellConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VeeContactCellConfiguration.m; path = Pod/Classes/Controller/ViewController/UITableViewCells/VeeContactCellConfiguration.m; sourceTree = "<group>"; };
+		EDF25477C5AB7F377074193A9A05F9BF /* VeeTableViewSearchDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeTableViewSearchDelegate.h; path = "Pod/Classes/Controller/ViewController/View Controller utils/VeeTableViewSearchDelegate.h"; sourceTree = "<group>"; };
+		EE2D28BC01E87E3ACB21A93D579C1388 /* ResourceBundle-VeeContactPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-VeeContactPicker-Info.plist"; sourceTree = "<group>"; };
+		EEF0EE86DD4F5944537FE5EEBF52E016 /* BEMCheckBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMCheckBox.xcconfig; sourceTree = "<group>"; };
+		F0EA39B5B0080198C6B15B827568D14B /* VeeContactUITableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VeeContactUITableViewCell.m; path = Pod/Classes/Controller/ViewController/UITableViewCells/VeeContactUITableViewCell.m; sourceTree = "<group>"; };
+		F0EC76828B5A629BD91A6010E7DF79F9 /* VeePostalAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeePostalAddress.h; path = Pod/Classes/Model/VeePostalAddress.h; sourceTree = "<group>"; };
+		F3170DE4773A35BC6EACB32594F95D1C /* UIImageView-AGCInitials.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIImageView-AGCInitials.xcconfig"; sourceTree = "<group>"; };
+		F377DEC1611656BFAC5A56AD912280C0 /* VeeContact.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VeeContact.m; path = Pod/Classes/Model/VeeContact.m; sourceTree = "<group>"; };
+		F431264D24A356496089A56F0CD78438 /* VeeTableViewSearchDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VeeTableViewSearchDelegate.m; path = "Pod/Classes/Controller/ViewController/View Controller utils/VeeTableViewSearchDelegate.m"; sourceTree = "<group>"; };
+		F65B4E40112A36B2ECBCA0AA9F2F6E71 /* VeeAddressBook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VeeAddressBook.h; path = "Pod/Classes/Controller/Address Book/VeeAddressBook.h"; sourceTree = "<group>"; };
+		F6F7C71EA0341B187986BD745322B8C9 /* JJMaterialTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JJMaterialTextField.framework; path = JJMaterialTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F818026297B6B52AD2A0ABA171AC154B /* FLKAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLKAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92C8D7E3C3A59FB3C8A2F8A0E24A038 /* WWCalendarTimeSelector.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; name = WWCalendarTimeSelector.storyboard; path = Sources/WWCalendarTimeSelector.storyboard; sourceTree = "<group>"; };
+		F9CB63E157CF87C42C33F16EBD9A99D6 /* VeeContactProtFactoryProducer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VeeContactProtFactoryProducer.m; path = "Pod/Classes/Model/VeeContact Abstract Factory/VeeContactProtFactoryProducer.m"; sourceTree = "<group>"; };
+		F9D2A495C4773740A9284861FD73BACB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0D2F8925458CDB3C0AD763140220AB /* NSDateComponents+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDateComponents+Timepiece.swift"; path = "Sources/NSDateComponents+Timepiece.swift"; sourceTree = "<group>"; };
+		FD852621D3D4FE791198B1045E4C4E1D /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBoxGroup.m; path = Classes/BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0147526E14753E5A2E0D77CD0793E3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219B310F89675576E7C614B710D27BB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030A5AB2338B3D9454F316376F16BB0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41B476CF5EE57921630989EAA0C0145 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B3C50CE8EDD971959EB0217D4FE765C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3EE5C24DBC8CF6E39D136821D9AD7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB0B1E1702AA372A5F6CE0D72069917 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C38476150063B0E6A3127F180BD3E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738E3EC15CDC2121E544A893BCA5BADF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7AAC7FFDE6FC79A98A65DFD63EE685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD81FD87DD168A1610ABE1BDE4B7172 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60A691B7785F46DDC3114ED0195852D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FE148056EA1B6F2C22B57731492546 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65569E311BFF39A18FC70CFAC4368552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE1C55A894FF5B8328ADC1C0B7D095F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986A05D091DAE8DF08C7292ADEAC17B2 /* FLKAutoLayout.framework in Frameworks */,
+				A9D81C166ADA082F99FC27ACE5DD6DD1 /* Foundation.framework in Frameworks */,
+				B49FCFB9B3610E623D7CF2BF5EC61692 /* UIImageView_AGCInitials.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B120F24371F36E23217667CACBC216D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4C1C3C13416D3745C4FFBC279ECA9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5FAD250099EC21E6B7608BC8FC6DA6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C366B63B9938A7911CE60D09B0C3ACEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28B31BF8E98637163C17FED2F0E8D9D /* CoreLocation.framework in Frameworks */,
+				A0E760DCF7D4A2464AC50316F1D16BF6 /* CoreMotion.framework in Frameworks */,
+				9F160B1D9E9EDE3912F37E8CA496B5F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F6C017BB91EA08643AF41B53B411B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E945EDD1E927F3E51904A6515CD7E3E /* Foundation.framework in Frameworks */,
+				43CDDF7A150909D7C5F68F3F0B9BCB74 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2BB08E8F0DAEC7A6A9F212E9DF9638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942230A68C7E1E03D9B326DA097EC5EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C57DC0E37C08D67115EF2C24370101 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				601DB49B596EA851ED15AAD8908FB81C /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B4A864F9F9187C4DBD901CA31FA8DB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				06B59E3AA23DD63E4160498088F3C3DC /* VeeContactPickerViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		11FAC01F05DFA54E42974B2B516F1D3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				786A17E76214AC3729151F7C37B79A93 /* BEMCheckBox */,
+				2ED39CD839D93486EA84F05A5157FD27 /* FLKAutoLayout */,
+				C8DAFFED453DEBE3A66C5550942B44E7 /* GoogleMaps */,
+				B1D564E3713E835B6D58B5709F3C37B2 /* GooglePlaces */,
+				B987F2B2AE29C15AF0DE0DE01711053C /* JJMaterialTextField */,
+				6894C1004108B9F3B7F282A892C55855 /* SOMotionDetector */,
+				A0ABFDF2847B92FC88C21F48290A4A66 /* Toast */,
+				A2A411B7D158496C76A97CF2A29FDD56 /* UIImageView-AGCInitials */,
+				AD016D3CF04B80C32031831DA95931C9 /* VeeContactPicker */,
+				710C40FEB020BB6D70A455B10F9A407D /* WWCalendarTimeSelector */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2370C247C174511150508A24E14107C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				598CB04C4BCD526B75191F706E0EE0B3 /* edit_button.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		25B361DDCF2B17A95F7D987000D4A0B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8720B413780B6127BDD8BD1047479DC /* BEMCheckBox.framework */,
+				0D327128804DA03097BF83D88E24AEEF /* FLKAutoLayout.framework */,
+				B0FFE64E1C69B83A9B6F106CFE5D9FCA /* JJMaterialTextField.bundle */,
+				F6F7C71EA0341B187986BD745322B8C9 /* JJMaterialTextField.framework */,
+				7EE6C31361A6D5108A387154C9386F5F /* Pods_SmartOffice.framework */,
+				D852C4E8DDCE028C20E6E275F1F6AFE0 /* Pods_SmartOfficeTests.framework */,
+				2D9D4FFA86D22EAF2747A3DAA496226D /* Pods_SmartOfficeUITests.framework */,
+				9DCB36FB1D6108D442174AD40E09877F /* SOMotionDetector.framework */,
+				CE457BBDA2C12FC49DB5617C92EFAFAE /* Toast.framework */,
+				7DCD1418A3C452B94BF935F64E1B9D80 /* UIImageView_AGCInitials.framework */,
+				416B1A98E1AB5DDE8EF0DAE3CCAB5E01 /* VeeContactPicker.bundle */,
+				103ACA4C99D075E9197B69B5413D1C22 /* VeeContactPicker.framework */,
+				E63F4E4E23CA6D9234A0317840F8931B /* WWCalendarTimeSelector.framework */,
+				68C253DD9E3D032A49BCB67A2B98EF33 /* WWCalendarTimeSelectorStoryboardBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ED39CD839D93486EA84F05A5157FD27 /* FLKAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				2DECD9746B156B320518381688832D80 /* FLKAutoLayout.h */,
+				674060BD931C9604F4BCBF4025045A16 /* FLKAutoLayoutPredicateList.h */,
+				8B70BF908F0B5D0BA7382486E4938FDA /* FLKAutoLayoutPredicateList.m */,
+				C3298E7EF3BDAA54E38BBAA144419376 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */,
+				6C4B19EF97EEC8DE3496970F772B2527 /* NSLayoutConstraint+FLKAutoLayoutDebug.m */,
+				8A61467153AB1F4A5CAECC5074E8B606 /* NSObject+FLKAutoLayoutDebug.h */,
+				484E45ABAE82EF1E215E6C47C7D60138 /* NSObject+FLKAutoLayoutDebug.m */,
+				119BE7E9F1B177404CDE2F373511B433 /* UIView+FLKAutoLayout.h */,
+				BF358FD832460E758D1D0DF3DA2D8BF0 /* UIView+FLKAutoLayout.m */,
+				76674C923CC430AACECF80FB3851C972 /* UIView+FLKAutoLayoutDebug.h */,
+				D099DA872C3C7EC6C98FAE2305DAB455 /* UIView+FLKAutoLayoutDebug.m */,
+				5DAE5F1951FB45BC236E17A0D2AF0ACB /* UIView+FLKAutoLayoutPredicate.h */,
+				85836D756C591FB05868378DF621B9A5 /* UIView+FLKAutoLayoutPredicate.m */,
+				44BF58D9A629B772C53AB153258ECE53 /* UIViewController+FLKAutoLayout.h */,
+				4218D0D523866F5776B04DB300F7D33C /* UIViewController+FLKAutoLayout.m */,
+				7B024FA76C99079BD17205EEE2FEC249 /* Support Files */,
+			);
+			name = FLKAutoLayout;
+			path = FLKAutoLayout;
+			sourceTree = "<group>";
+		};
+		31699EDBAA09A22277AF976DC15E609D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A84C223F30DA0B467CA834B5CC342AB7 /* Info.plist */,
+				3BCA78CD104CA8B0B7FD5B68645833A6 /* UIImageView-AGCInitials.modulemap */,
+				F3170DE4773A35BC6EACB32594F95D1C /* UIImageView-AGCInitials.xcconfig */,
+				2ADAD2F46AC39B3DF47E1ABC107707EB /* UIImageView-AGCInitials-dummy.m */,
+				570565F7E1B3BD8061060E4182E24E25 /* UIImageView-AGCInitials-prefix.pch */,
+				69C1F76BA3F1FC50AC7DBEC55F154C6B /* UIImageView-AGCInitials-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIImageView-AGCInitials";
+			sourceTree = "<group>";
+		};
+		3D5894BD4505AD3DC41D0797B48E402C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				505EFC7954871720C933846B09FC10B9 /* Info.plist */,
+				B43B50D1F39622F1986368C044C7487F /* SOMotionDetector.modulemap */,
+				1538C5D137169A63E4941057388D336F /* SOMotionDetector.xcconfig */,
+				4660953A6526F34A693301634F6B5A85 /* SOMotionDetector-dummy.m */,
+				805276E521483F234CB2619EAC62D80F /* SOMotionDetector-prefix.pch */,
+				27345FB70BCFDAA7E05BE043D6696D0E /* SOMotionDetector-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SOMotionDetector";
+			sourceTree = "<group>";
+		};
+		4323ADB2E29D52269FC37FF003BF466F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F818026297B6B52AD2A0ABA171AC154B /* FLKAutoLayout.framework */,
+				6AB3CD7FD38161B750B69D6AA546543E /* UIImageView_AGCInitials.framework */,
+				64AE68859CCDAA25B2728BD40B18A03A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44F7C012004F65279986CE715B193634 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F9665569EEC8257F53B6173A40B945A /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		46850F4C323A544E3E05C071A66A442A /* Pods-SmartOfficeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E512558ADC6A4BFFDFF3DB2B7ABEE70A /* Info.plist */,
+				3ABC1A242036990C43B21F22CA691B5C /* Pods-SmartOfficeUITests.modulemap */,
+				458475EFD06D9453E5847BCA08BC5233 /* Pods-SmartOfficeUITests-acknowledgements.markdown */,
+				6E5DEB95925F16C458548E668CB74C57 /* Pods-SmartOfficeUITests-acknowledgements.plist */,
+				386A1C7AF9BCE1497C517BC36808A2D6 /* Pods-SmartOfficeUITests-dummy.m */,
+				341345E2E5A22AD228DB12E22DF2AD97 /* Pods-SmartOfficeUITests-frameworks.sh */,
+				5886571BD1252C2392F5214E8F017047 /* Pods-SmartOfficeUITests-resources.sh */,
+				1DE288553AB872A2AB89019A0A507F2F /* Pods-SmartOfficeUITests-umbrella.h */,
+				CE5755B0E695E6D58179EDFDB25407BD /* Pods-SmartOfficeUITests.debug.xcconfig */,
+				8458F8A742FA64787E31D43D7995A962 /* Pods-SmartOfficeUITests.release.xcconfig */,
+			);
+			name = "Pods-SmartOfficeUITests";
+			path = "Target Support Files/Pods-SmartOfficeUITests";
+			sourceTree = "<group>";
+		};
+		53D4C97035B76B2BC578FF5871002C76 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				D47DBCAFE43FA344E251DB976F4B03CE /* Frameworks */,
+				44F7C012004F65279986CE715B193634 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		562C978BBFFDCD881A938B2B81F024AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4F5C70F9282A22542F42664CF44C0BA /* Info.plist */,
+				510EE65558CACAED2EE9F1BF1D2CC27A /* Toast.modulemap */,
+				711DD4427A17A538ABE5BB13EBCBA7EB /* Toast.xcconfig */,
+				AAF588C60A2249CA5AA7E4EEB8039959 /* Toast-dummy.m */,
+				A9075F3B8F954F45625557A310B4F179 /* Toast-prefix.pch */,
+				34A2E8F3FD84EF8BA91091D1ADBBE72A /* Toast-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast";
+			sourceTree = "<group>";
+		};
+		5DC8D58FBCB5D196EC9E5F9E71EDEE36 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E1630BEE8F8F90F8CD6EECB13AA8C24 /* Pods-SmartOffice */,
+				BB2B7F8F6EC9F576A2538CF1265C06C4 /* Pods-SmartOfficeTests */,
+				46850F4C323A544E3E05C071A66A442A /* Pods-SmartOfficeUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		64AE68859CCDAA25B2728BD40B18A03A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2AB21731872A70A01D704D3145009217 /* CoreLocation.framework */,
+				8ACD15049D60579618D629F76B387102 /* CoreMotion.framework */,
+				62A911426C25E82485D0A9D4D36C8F8A /* Foundation.framework */,
+				AA18324BA04DA3864C5BFF5D5A11897B /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6894C1004108B9F3B7F282A892C55855 /* SOMotionDetector */ = {
+			isa = PBXGroup;
+			children = (
+				9A972A1EF42F2C8B076AC1D3B2059C56 /* SOLocationManager.h */,
+				73B633B7737F0C92975A7144A4092566 /* SOLocationManager.m */,
+				3102118E90B1E0B67E43E4BB8A7C5E2E /* SOMotionDetector.h */,
+				729B05B12EF44137F0DD339FAC162777 /* SOMotionDetector.m */,
+				7FCFC693E7879475108B4949B2793A83 /* SOStepDetector.h */,
+				2C346E2E6B7279F9A9588D41E1A08FD8 /* SOStepDetector.m */,
+				3D5894BD4505AD3DC41D0797B48E402C /* Support Files */,
+			);
+			name = SOMotionDetector;
+			path = SOMotionDetector;
+			sourceTree = "<group>";
+		};
+		710C40FEB020BB6D70A455B10F9A407D /* WWCalendarTimeSelector */ = {
+			isa = PBXGroup;
+			children = (
+				894AD8E1BB0ED188FDD1B852E9D9F966 /* Duration.swift */,
+				19456D7780AA1FC226CB238A37997127 /* Int+Timepiece.swift */,
+				33FECAB39849FA71517DE6CFFBBCCBDB /* NSCalendar+Timepiece.swift */,
+				4EA963C3E1576ABCD11B68AEF2DEBFE9 /* NSDate+Timepiece.swift */,
+				FA0D2F8925458CDB3C0AD763140220AB /* NSDateComponents+Timepiece.swift */,
+				4BEDFF812C8CCC319D6AEEE3E9176263 /* String+Timepiece.swift */,
+				3F5BE274A3B4663A9A94430C9F198C8D /* WWCalendarTimeSelector.swift */,
+				7360832BAA5E07DC3DFCCD01AC69D7FE /* Resources */,
+				AF66AA3F2F751C6738E61DC8FEA80DD4 /* Support Files */,
+			);
+			name = WWCalendarTimeSelector;
+			path = WWCalendarTimeSelector;
+			sourceTree = "<group>";
+		};
+		7360832BAA5E07DC3DFCCD01AC69D7FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F92C8D7E3C3A59FB3C8A2F8A0E24A038 /* WWCalendarTimeSelector.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		74EFDB8C2C63F2102C7881EF41F04E7B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD1B47624C8AC1012E3A9BEB41825410 /* Info.plist */,
+				E4F6089951BD3A8F0686031F5655DE18 /* JJMaterialTextField.modulemap */,
+				BF4300C23179CDE22980FCAAF6351688 /* JJMaterialTextField.xcconfig */,
+				BFF92D26C52BC5DC1E965411E02D394B /* JJMaterialTextField-dummy.m */,
+				B6F02D6E33C1A0DFF973FAF9E9F83EDC /* JJMaterialTextField-prefix.pch */,
+				CD89E2DBD5B5347364C5BAF2EE4AE8C4 /* JJMaterialTextField-umbrella.h */,
+				EB3D929B7C29FCF87D7CC80F7B1A3330 /* ResourceBundle-JJMaterialTextField-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JJMaterialTextField";
+			sourceTree = "<group>";
+		};
+		786A17E76214AC3729151F7C37B79A93 /* BEMCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				26399F6FBAEA7ED1D4F6E623AA349B9E /* BEMAnimationManager.h */,
+				27CE03635CDCE85ECC0B2ECEF94BF5BB /* BEMAnimationManager.m */,
+				064BAA54DC2F1A1A1567074D4241E643 /* BEMCheckBox.h */,
+				A87FACEF9959B1A89B5693149FC516A4 /* BEMCheckBox.m */,
+				2CE969216A0E71DDA5F0A5DECE636907 /* BEMCheckBoxGroup.h */,
+				FD852621D3D4FE791198B1045E4C4E1D /* BEMCheckBoxGroup.m */,
+				A5B43F6D54A6F072326B56737651BD0F /* BEMPathManager.h */,
+				02D3C7EE9763BF63BD6587CE117BF99B /* BEMPathManager.m */,
+				8EF1A7F62E189ECF71BCC0B75585E0DE /* Support Files */,
+			);
+			name = BEMCheckBox;
+			path = BEMCheckBox;
+			sourceTree = "<group>";
+		};
+		79EFFAE5F6C15B3DAFFA62C7849236AA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				01C57DC0E37C08D67115EF2C24370101 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		7B024FA76C99079BD17205EEE2FEC249 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADEC318217A6A5F2687071499F2CAA0D /* FLKAutoLayout.modulemap */,
+				1549967139480793F27D114FA95F4C00 /* FLKAutoLayout.xcconfig */,
+				58E1BA771F879BFB186985CA0C40D51A /* FLKAutoLayout-dummy.m */,
+				AD31B35BA6E0CCC2CC3ED75C4EDE83A4 /* FLKAutoLayout-prefix.pch */,
+				63C0359BABF4474A098577685E7CF842 /* FLKAutoLayout-umbrella.h */,
+				DE0D03F80685AAB9B64F1EF18BD92320 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FLKAutoLayout";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4323ADB2E29D52269FC37FF003BF466F /* Frameworks */,
+				11FAC01F05DFA54E42974B2B516F1D3C /* Pods */,
+				25B361DDCF2B17A95F7D987000D4A0B7 /* Products */,
+				5DC8D58FBCB5D196EC9E5F9E71EDEE36 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E12C1B428F37BB2E90B83D6FC8CFE52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E852EFD2B3BF34604867890DCAE35D61 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7E1630BEE8F8F90F8CD6EECB13AA8C24 /* Pods-SmartOffice */ = {
+			isa = PBXGroup;
+			children = (
+				B963FE0C750CF447E29180A0589A7276 /* Info.plist */,
+				B104ABEC4F30B1FA0AA5B5EC18947704 /* Pods-SmartOffice.modulemap */,
+				550BAFCA46E469CF807030353C4D1457 /* Pods-SmartOffice-acknowledgements.markdown */,
+				11F71F428E80EFE176065EA7E08B23A8 /* Pods-SmartOffice-acknowledgements.plist */,
+				950D6B7CBE12E4751B433486B86C033F /* Pods-SmartOffice-dummy.m */,
+				B785780807DF00A27099F633DBF124A5 /* Pods-SmartOffice-frameworks.sh */,
+				6E3093C19BE806B239360DAC3A8EE566 /* Pods-SmartOffice-resources.sh */,
+				27E3D943F11C29FE155AB2B42DAC72A1 /* Pods-SmartOffice-umbrella.h */,
+				A0464F073EB0C7693A4E61268AE9377F /* Pods-SmartOffice.debug.xcconfig */,
+				7BE3805D4FB14E235662EA83711D9628 /* Pods-SmartOffice.release.xcconfig */,
+			);
+			name = "Pods-SmartOffice";
+			path = "Target Support Files/Pods-SmartOffice";
+			sourceTree = "<group>";
+		};
+		8EF1A7F62E189ECF71BCC0B75585E0DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D1F8868A98351AF918B72A149F02766 /* BEMCheckBox.modulemap */,
+				EEF0EE86DD4F5944537FE5EEBF52E016 /* BEMCheckBox.xcconfig */,
+				DB533B59B1EB7E8524532D29B3F32BB7 /* BEMCheckBox-dummy.m */,
+				7A8B6C6F74764474498124EFF01C064C /* BEMCheckBox-prefix.pch */,
+				A68DD1DFE34F3113BEE7A691B956220F /* BEMCheckBox-umbrella.h */,
+				A30C9DCA142916063E91801D267954EA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BEMCheckBox";
+			sourceTree = "<group>";
+		};
+		A0ABFDF2847B92FC88C21F48290A4A66 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				5CCA07A35316C08D55A4D117852F2A92 /* UIView+Toast.h */,
+				6FF6917D2F9C8DE60380C385B7752471 /* UIView+Toast.m */,
+				562C978BBFFDCD881A938B2B81F024AB /* Support Files */,
+			);
+			name = Toast;
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		A2A411B7D158496C76A97CF2A29FDD56 /* UIImageView-AGCInitials */ = {
+			isa = PBXGroup;
+			children = (
+				C8E457EA02C2AA1DE688416468DCF11F /* AGCInitialsColors.h */,
+				73396AAB5B00B5EB0B306FAF090CF017 /* AGCInitialsColors.m */,
+				87844662A38D47886828D139D2FC75D5 /* UIImageView+AGCInitials.h */,
+				DFAD24FBB72431EA1688532C21F34555 /* UIImageView+AGCInitials.m */,
+				31699EDBAA09A22277AF976DC15E609D /* Support Files */,
+			);
+			name = "UIImageView-AGCInitials";
+			path = "UIImageView-AGCInitials";
+			sourceTree = "<group>";
+		};
+		AD016D3CF04B80C32031831DA95931C9 /* VeeContactPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0D2A2795CC91CED82E8204F6428128AE /* NSObject+VeeCommons.h */,
+				DBBA908457F66F0D5CDE640F5E9A8F51 /* NSObject+VeeCommons.m */,
+				CCF9999484031244DE833E304AF5CBF1 /* UILabel+VeeBoldify.h */,
+				0184D44B11D787A170FDB1BC81505293 /* UILabel+VeeBoldify.m */,
+				7393927454955D72F3D7348732E8A121 /* VeeABDelegate.h */,
+				52D784CA581B7DF7B47FCBDF28925D45 /* VeeABRecord.h */,
+				4FA2709E47EB4AC41239A67668E8A2FE /* VeeABRecord.m */,
+				3816A25EC55C98408F06715A78F77BB8 /* VeeABRecordsImporter.h */,
+				3AA3C48E7CC3D27541F690723FC3760A /* VeeABRecordsImporter.m */,
+				F65B4E40112A36B2ECBCA0AA9F2F6E71 /* VeeAddressBook.h */,
+				CFEFD0F784D5AA97504D80AC5D5C8B2D /* VeeAddressBook.m */,
+				86ECD493EE460F8FBE87D7E8F5935D70 /* VeeCommons.h */,
+				4026C56DF292CF6A63BA724B47AA3508 /* VeeCommons.m */,
+				2F5B16E86D7EBD944B97715CC0106ACC /* VeeContact.h */,
+				F377DEC1611656BFAC5A56AD912280C0 /* VeeContact.m */,
+				66FC5E81C7997DACB5380A7637E6E991 /* VeeContactCellConfiguration.h */,
+				ECB41E6C4805AEE200235FEDCB8B4625 /* VeeContactCellConfiguration.m */,
+				4C8C8E1CA64207079802CC90A3353926 /* VeeContactFactory.h */,
+				323F20EE7850C2E6BCD0EEE94313226B /* VeeContactFactory.m */,
+				AB366BF2D8829448476FC776FCE0C1CE /* VeeContactFactoryProt.h */,
+				74868B057EB197EF70425D88D1AE2233 /* VeeContactPickerAppearanceConstants.h */,
+				29172033199003A5E39BBDC22CAFD462 /* VeeContactPickerAppearanceConstants.m */,
+				7589414B04F05241E13E1382239D2213 /* VeeContactPickerDelegate.h */,
+				52DFD65617E3B84F0D0BB79C3F6B679F /* VeeContactPickerOptions.h */,
+				C4103C349DABFF1C587EFE09CFF593FC /* VeeContactPickerOptions.m */,
+				E18601C78B88B0FD7A055793E8D7B6B6 /* VeeContactPickerStrings.h */,
+				E6CDB241057A0E1E3B03399F2CF98D9D /* VeeContactPickerStrings.m */,
+				91FCE6690344C1EF940B2F4766CF2220 /* VeeContactPickerViewController.h */,
+				4996B8FFFD73BE2CC413A31A8D3EF4CD /* VeeContactPickerViewController.m */,
+				AFDC378F6185D3F6E07823397A09E2C0 /* VeeContactProt.h */,
+				1A1F34916386DD1BB50051073C22D683 /* VeeContactProtFactoryProducer.h */,
+				F9CB63E157CF87C42C33F16EBD9A99D6 /* VeeContactProtFactoryProducer.m */,
+				6F5A161EE3732610408BB6615DB8F2EF /* VeeContactUITableViewCell.h */,
+				F0EA39B5B0080198C6B15B827568D14B /* VeeContactUITableViewCell.m */,
+				F0EC76828B5A629BD91A6010E7DF79F9 /* VeePostalAddress.h */,
+				47BD3B1CD385055E7D63E6F08490EC76 /* VeePostalAddress.m */,
+				D892AD87A4CE1E92789311A33FDAC807 /* VeePostalAddressProt.h */,
+				475131EB819724FBB56B2DF4EE6B4F23 /* VeeSearchResultsDelegate.h */,
+				C06DE9E39A7A0B5B4D795E59E2714B28 /* VeeSectionable.h */,
+				D934D1473ABEB89916A46B9487F5ECD3 /* VeeSectionedArrayDataSource.h */,
+				9585014C903A2A9C60EB9D4F9E92EC94 /* VeeSectionedArrayDataSource.m */,
+				EDF25477C5AB7F377074193A9A05F9BF /* VeeTableViewSearchDelegate.h */,
+				F431264D24A356496089A56F0CD78438 /* VeeTableViewSearchDelegate.m */,
+				0B4A864F9F9187C4DBD901CA31FA8DB4 /* Resources */,
+				EA37528999122D9866DDFDFBDD073C16 /* Support Files */,
+			);
+			name = VeeContactPicker;
+			path = VeeContactPicker;
+			sourceTree = "<group>";
+		};
+		AF66AA3F2F751C6738E61DC8FEA80DD4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E67D613264BD07BCCA335F8BF397448 /* Info.plist */,
+				291DA036441D6B1B39235CF4EFB43F5B /* ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-Info.plist */,
+				71D2FA1F54C8DDE7528D4BA6D379C960 /* WWCalendarTimeSelector.modulemap */,
+				8275F8CD3A9D95080118667889D98B7D /* WWCalendarTimeSelector.xcconfig */,
+				BA3EB5EB67DC934CF942885777086DD2 /* WWCalendarTimeSelector-dummy.m */,
+				9536F4669581F2CF7257932BAEC22713 /* WWCalendarTimeSelector-prefix.pch */,
+				549A10E7B1F7265DFA24EB3046E707F5 /* WWCalendarTimeSelector-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WWCalendarTimeSelector";
+			sourceTree = "<group>";
+		};
+		B1D564E3713E835B6D58B5709F3C37B2 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				E8218B402FD388A23F735750ED73E385 /* Frameworks */,
+				7E12C1B428F37BB2E90B83D6FC8CFE52 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		B987F2B2AE29C15AF0DE0DE01711053C /* JJMaterialTextField */ = {
+			isa = PBXGroup;
+			children = (
+				C2173458BCA3A81C3C8CD761C521E17E /* JJMaterialTextfield.h */,
+				893DF4BEF2630D1079042EA91CA63C8E /* JJMaterialTextfield.m */,
+				2370C247C174511150508A24E14107C5 /* Resources */,
+				74EFDB8C2C63F2102C7881EF41F04E7B /* Support Files */,
+			);
+			name = JJMaterialTextField;
+			path = JJMaterialTextField;
+			sourceTree = "<group>";
+		};
+		BB2B7F8F6EC9F576A2538CF1265C06C4 /* Pods-SmartOfficeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A09DFCE83BFAADDAB4ECF97C199F908 /* Info.plist */,
+				41D6DE6FB1E1A1029054886AC50A8C33 /* Pods-SmartOfficeTests.modulemap */,
+				5C91A71BC8E9C5CCFF196D5FD0732E11 /* Pods-SmartOfficeTests-acknowledgements.markdown */,
+				09884D570EB2A0AA7D3C7A7E5DB022D6 /* Pods-SmartOfficeTests-acknowledgements.plist */,
+				11014BF1C0013D4C9E1610C31E8D1BD8 /* Pods-SmartOfficeTests-dummy.m */,
+				D3777E54D3BF38F20AD8514F52BC664C /* Pods-SmartOfficeTests-frameworks.sh */,
+				C95F33ABBCE03D2EDBF91EC0003235F0 /* Pods-SmartOfficeTests-resources.sh */,
+				CB56F59E8CD8CFB8CF71D20B82037026 /* Pods-SmartOfficeTests-umbrella.h */,
+				B7694E5DC68C3E3B51F3689A5B2F8EAC /* Pods-SmartOfficeTests.debug.xcconfig */,
+				98F5948B32A37757FAF611C8BC9E1E8E /* Pods-SmartOfficeTests.release.xcconfig */,
+			);
+			name = "Pods-SmartOfficeTests";
+			path = "Target Support Files/Pods-SmartOfficeTests";
+			sourceTree = "<group>";
+		};
+		C8DAFFED453DEBE3A66C5550942B44E7 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				79EFFAE5F6C15B3DAFFA62C7849236AA /* Base */,
+				53D4C97035B76B2BC578FF5871002C76 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		D47DBCAFE43FA344E251DB976F4B03CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63CD781EC98BD05653A311B18F0F7979 /* GoogleMaps.framework */,
+				C0F4CE62336AF0212CF2352DBC92FB50 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8218B402FD388A23F735750ED73E385 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F9D3664E683755D0FB462542B4240BB /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA37528999122D9866DDFDFBDD073C16 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9D2A495C4773740A9284861FD73BACB /* Info.plist */,
+				EE2D28BC01E87E3ACB21A93D579C1388 /* ResourceBundle-VeeContactPicker-Info.plist */,
+				0A310593C619E508B94676A91BF88421 /* VeeContactPicker.modulemap */,
+				B7A85A4AF709A3FE71313BE49582931A /* VeeContactPicker.xcconfig */,
+				E9127BCFE6BC6F7D1CDEDBFC69074DE0 /* VeeContactPicker-dummy.m */,
+				74BADE71FA9108B09B15C6A332F166B7 /* VeeContactPicker-prefix.pch */,
+				35718D9F21636A9F31B140FDFA646FE8 /* VeeContactPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VeeContactPicker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A2AAFFE3C31CFF5F70881AD15B7DB59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A910A4C164381AD09894A22A554B8D58 /* JJMaterialTextField-umbrella.h in Headers */,
+				EC55AE5C6F528B41D7E6140262D3638D /* JJMaterialTextfield.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2722A2B2904B4F0726E1DA15C59373 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661ADD728E89D9CEA0877B03BCFE15F2 /* NSObject+VeeCommons.h in Headers */,
+				277AA1A6DDAC4A36852252698B297A9E /* UILabel+VeeBoldify.h in Headers */,
+				C5ECA188D41AF3EA5994E8EE3D0B3643 /* VeeABDelegate.h in Headers */,
+				728910E84526BBAE8027EBD7F169F823 /* VeeABRecord.h in Headers */,
+				F3C3C3E19B0C54EBED1FB00F9F160ECA /* VeeABRecordsImporter.h in Headers */,
+				D8F41D9468B01E6940543F2356453634 /* VeeAddressBook.h in Headers */,
+				7DEDE022F45E3109C85287F507DBFC92 /* VeeCommons.h in Headers */,
+				ECDD717334B419BE2DE00F8479157EB0 /* VeeContact.h in Headers */,
+				D33F7AA84CD6AAA58FF0CA0F6C31DB81 /* VeeContactCellConfiguration.h in Headers */,
+				4D81D26E9AE3E75E161EB66BCE81BE2D /* VeeContactFactory.h in Headers */,
+				0F658D9FC8A2098C1C3BC9C302CC21D2 /* VeeContactFactoryProt.h in Headers */,
+				C19C6AB8B70B600C354DB5AEAFC77DE2 /* VeeContactPicker-umbrella.h in Headers */,
+				AB0CA222483CC4D10E2C64F81F48C434 /* VeeContactPickerAppearanceConstants.h in Headers */,
+				4BA8D03DAB06A60FAA34047B520A2019 /* VeeContactPickerDelegate.h in Headers */,
+				83BDB042DFD92121147751A49E86AADF /* VeeContactPickerOptions.h in Headers */,
+				D5F4E1833D22180A4A3E3BAFA10396A1 /* VeeContactPickerStrings.h in Headers */,
+				8D6BE31ACD494807E9386DDFBA01006A /* VeeContactPickerViewController.h in Headers */,
+				DF32841A7228FB37DEA0E7DCD010DE89 /* VeeContactProt.h in Headers */,
+				2851DD3FDA59F3B49BDC4384802165D9 /* VeeContactProtFactoryProducer.h in Headers */,
+				7C9CEA2B4CAAF2C812266434BC8F4FBD /* VeeContactUITableViewCell.h in Headers */,
+				AD12C19687DF7236A3F9A7BFBEC8629E /* VeePostalAddress.h in Headers */,
+				399A473430818C286AF7C1F0F81AABA8 /* VeePostalAddressProt.h in Headers */,
+				A876D4862A475BEB51118A52517CAA3F /* VeeSearchResultsDelegate.h in Headers */,
+				316CDE6A08EDBD88C201486D44D0AFA5 /* VeeSectionable.h in Headers */,
+				3D36C02E40D94EB10105F0887FFA326B /* VeeSectionedArrayDataSource.h in Headers */,
+				34B0F1CED0807608DC7B8F16998D28A4 /* VeeTableViewSearchDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F188F272CF86902675F4921C62C214 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B078BF35ED43B191EDCA62B4593A0AB4 /* AGCInitialsColors.h in Headers */,
+				9CFD06CFDA8918C8CBB0AB9AA2F600C5 /* UIImageView+AGCInitials.h in Headers */,
+				8D34AF33C9124D07998F476A43AFDCE2 /* UIImageView-AGCInitials-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAD03C38BE678D106AB36FD1D811671 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F840D35B3D57A5527CA18C8821D2066 /* FLKAutoLayout-umbrella.h in Headers */,
+				EE3AFB0111FF96173AD831D562097610 /* FLKAutoLayout.h in Headers */,
+				435C933F83E57A870BC44B6925FE1C79 /* FLKAutoLayoutPredicateList.h in Headers */,
+				3AE02009E5F30200A39BFEEF25D3D016 /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */,
+				EDE42101F5279DE53CD60E1C2C631746 /* NSObject+FLKAutoLayoutDebug.h in Headers */,
+				50B5985954DD0580AE18EDFF4A04807B /* UIView+FLKAutoLayout.h in Headers */,
+				D4F0CE603891A1DA06DA4B83D273BA13 /* UIView+FLKAutoLayoutDebug.h in Headers */,
+				FA6B62D7EDE1D3BB109DE86BD37266EA /* UIView+FLKAutoLayoutPredicate.h in Headers */,
+				61C1FC7B72B8EA13A8456C8431D12EAE /* UIViewController+FLKAutoLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6027F6767D4F0F08AD5CBCE9E4192827 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F57873BAE949F334DA9D57D020B121 /* BEMAnimationManager.h in Headers */,
+				03BC7C44A0DD8215B92B20511FEABCE1 /* BEMCheckBox-umbrella.h in Headers */,
+				9A8BC36CCD3769C0DCEB4213A5019BB7 /* BEMCheckBox.h in Headers */,
+				AC08ACC8E35090E01239B8163297A0EA /* BEMCheckBoxGroup.h in Headers */,
+				8A6B44636886520707544BC52CCD2ABF /* BEMPathManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C3D2AF0E22920AF8372DF334B66D1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05A394670D769AF39E695A37850FA14 /* SOLocationManager.h in Headers */,
+				589ADE393A1F2146AA6E3170E9F29CBE /* SOMotionDetector-umbrella.h in Headers */,
+				930FAF196BB5B632F6479D2D0D2E4F4D /* SOMotionDetector.h in Headers */,
+				08A660BF571355B2B9102E0E44195C52 /* SOStepDetector.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BD86B0CBA3E3304BD9689D071118FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11D98BFF5D5D4EFAC2B5E0A74C1AD1B /* Pods-SmartOffice-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF16171249F7D318D861150D7051F28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1997C062E201BAF56AF3D31D8DF6317C /* Toast-umbrella.h in Headers */,
+				4F44794B9570282D41F05ADA8DBA7270 /* UIView+Toast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68D884C8B5ABCCE87746D934D1758B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E0CD96377549A8AE260628E25E0E53 /* Pods-SmartOfficeUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFDEF51748BD6912CDF589DCE789874 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FE631E5BE7D606D0BEB8CD679AC44B /* WWCalendarTimeSelector-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5012B2CB6B2C3896951CC838B24C49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A21C6AC8B79657234EDEC0DF0F7BC63 /* Pods-SmartOfficeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04466F4E2E85B9A9B3B4405E1A9C161F /* SOMotionDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EE276951A92C4A110840D3B49143709 /* Build configuration list for PBXNativeTarget "SOMotionDetector" */;
+			buildPhases = (
+				DC6122A28758B5244AE0BF3D4A5AF663 /* Sources */,
+				C366B63B9938A7911CE60D09B0C3ACEE /* Frameworks */,
+				72C3D2AF0E22920AF8372DF334B66D1A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOMotionDetector;
+			productName = SOMotionDetector;
+			productReference = 9DCB36FB1D6108D442174AD40E09877F /* SOMotionDetector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		171892E643977CACF1C966931DF0970F /* JJMaterialTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8555EA0286368F83F8036918AC243F35 /* Build configuration list for PBXNativeTarget "JJMaterialTextField" */;
+			buildPhases = (
+				CCCF6204FA2E219FF0D7041C759872AA /* Sources */,
+				44C38476150063B0E6A3127F180BD3E5 /* Frameworks */,
+				6DD91E0FF9A19F9F8CDFCB1EA4CE94C3 /* Resources */,
+				0A2AAFFE3C31CFF5F70881AD15B7DB59 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C14A14F2912242DFA2B4B85F700C8C73 /* PBXTargetDependency */,
+			);
+			name = JJMaterialTextField;
+			productName = JJMaterialTextField;
+			productReference = F6F7C71EA0341B187986BD745322B8C9 /* JJMaterialTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		36FF5CB4F246CE311E2F962A8367A420 /* Pods-SmartOfficeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868F2CBC81EF69A43EB37F0726DF721D /* Build configuration list for PBXNativeTarget "Pods-SmartOfficeUITests" */;
+			buildPhases = (
+				4F5277B2777575FCEB8F44F9249E86D4 /* Sources */,
+				B120F24371F36E23217667CACBC216D6 /* Frameworks */,
+				D68D884C8B5ABCCE87746D934D1758B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SmartOfficeUITests";
+			productName = "Pods-SmartOfficeUITests";
+			productReference = 2D9D4FFA86D22EAF2747A3DAA496226D /* Pods_SmartOfficeUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		563519234DD243D4381F40A59D8FDB16 /* WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DE8772E01CDFCA3B0E03346C68F84C6 /* Build configuration list for PBXNativeTarget "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle" */;
+			buildPhases = (
+				EF2E8F02450EBD60DA1A50941E83F57F /* Sources */,
+				B5FAD250099EC21E6B7608BC8FC6DA6B /* Frameworks */,
+				DB6476AFDE1F7DC82211F710DFDC11E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle";
+			productName = "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle";
+			productReference = 68C253DD9E3D032A49BCB67A2B98EF33 /* WWCalendarTimeSelectorStoryboardBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5ECD488BD72C0D43A14802B350158ABF /* WWCalendarTimeSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C47E0849C4CE53A4E6AC35B49323BF /* Build configuration list for PBXNativeTarget "WWCalendarTimeSelector" */;
+			buildPhases = (
+				D6A313A2EB641C0C4586FD3015680FBB /* Sources */,
+				030A5AB2338B3D9454F316376F16BB0D /* Frameworks */,
+				301DB84521CD4C31388BBC7512BE6260 /* Resources */,
+				DCFDEF51748BD6912CDF589DCE789874 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26A27F53B118FF620DD1639322E9A727 /* PBXTargetDependency */,
+			);
+			name = WWCalendarTimeSelector;
+			productName = WWCalendarTimeSelector;
+			productReference = E63F4E4E23CA6D9234A0317840F8931B /* WWCalendarTimeSelector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		74D8DCE0823E2699B3DEC027456D4AC0 /* VeeContactPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30493825F38DD99DA09C083612DA83FC /* Build configuration list for PBXNativeTarget "VeeContactPicker" */;
+			buildPhases = (
+				50CDDAC69134E24C672A41133DCFA84A /* Sources */,
+				8BE1C55A894FF5B8328ADC1C0B7D095F /* Frameworks */,
+				F5D8313407A5259B0C5AEC8765692471 /* Resources */,
+				3C2722A2B2904B4F0726E1DA15C59373 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94B77BAEE59A5C53584AE11D76EDBF28 /* PBXTargetDependency */,
+				818BE68BA96CFE8EAC98497060494E11 /* PBXTargetDependency */,
+				B19ADC56755463DE7B2A7D265808A188 /* PBXTargetDependency */,
+			);
+			name = VeeContactPicker;
+			productName = VeeContactPicker;
+			productReference = 103ACA4C99D075E9197B69B5413D1C22 /* VeeContactPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		77AFFB34AF2C035832A4AF49FC82A353 /* Toast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B240C408943341921D2F8C3B35849C2B /* Build configuration list for PBXNativeTarget "Toast" */;
+			buildPhases = (
+				E5389C0C90E1231AE34F3327D328FC6D /* Sources */,
+				E3F6C017BB91EA08643AF41B53B411B2 /* Frameworks */,
+				9DF16171249F7D318D861150D7051F28 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toast;
+			productName = Toast;
+			productReference = CE457BBDA2C12FC49DB5617C92EFAFAE /* Toast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79AED3B93470BA00DC788863CED630E7 /* UIImageView-AGCInitials */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B223846288F767866B8EF7B9068CDA6A /* Build configuration list for PBXNativeTarget "UIImageView-AGCInitials" */;
+			buildPhases = (
+				0AF573C0DC1BF05FE5738C0396CA45F7 /* Sources */,
+				4E7AAC7FFDE6FC79A98A65DFD63EE685 /* Frameworks */,
+				42F188F272CF86902675F4921C62C214 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIImageView-AGCInitials";
+			productName = "UIImageView-AGCInitials";
+			productReference = 7DCD1418A3C452B94BF935F64E1B9D80 /* UIImageView_AGCInitials.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		859A42CA208CA9169B0B4FCF37FD46E1 /* Pods-SmartOfficeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A4C4A7B0DF323A52ECF799E10A789E /* Build configuration list for PBXNativeTarget "Pods-SmartOfficeTests" */;
+			buildPhases = (
+				950F5FE4BD0423C55D45A8B39979E396 /* Sources */,
+				0147526E14753E5A2E0D77CD0793E3DC /* Frameworks */,
+				FA5012B2CB6B2C3896951CC838B24C49 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SmartOfficeTests";
+			productName = "Pods-SmartOfficeTests";
+			productReference = D852C4E8DDCE028C20E6E275F1F6AFE0 /* Pods_SmartOfficeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A0EB0D15CE1F9B72D5D910566678F7B /* Pods-SmartOffice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656A56A0892DCBDCDD19F5AC1359CB83 /* Build configuration list for PBXNativeTarget "Pods-SmartOffice" */;
+			buildPhases = (
+				8F626B4BAF5F6F5F1F933086C9D18E13 /* Sources */,
+				60A691B7785F46DDC3114ED0195852D3 /* Frameworks */,
+				77BD86B0CBA3E3304BD9689D071118FC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51DC9752DC3ABCCA9F7F6CEF1FE7CB81 /* PBXTargetDependency */,
+				E397F6662E5FC44A11664E15D6A9B8A9 /* PBXTargetDependency */,
+				4FB34E7CADCF5C6AE4D38B6E58FFA06F /* PBXTargetDependency */,
+				A91990F40E8337164FA2FCE5E06C61DF /* PBXTargetDependency */,
+				AE130B37857BF4F2965D23F9B017B87D /* PBXTargetDependency */,
+				850DB54E88B06529BC851E7850880EC3 /* PBXTargetDependency */,
+				3B12B58A14488CF658127A1A29B02426 /* PBXTargetDependency */,
+				0B2BAA676F442C60503033D263907BEC /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartOffice";
+			productName = "Pods-SmartOffice";
+			productReference = 7EE6C31361A6D5108A387154C9386F5F /* Pods_SmartOffice.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC19A72FB7D1DB0B2CC5F6C5CF2400F4 /* BEMCheckBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020E578A97CC1DF9DC645C21BD1D2A8D /* Build configuration list for PBXNativeTarget "BEMCheckBox" */;
+			buildPhases = (
+				3166FED8D0EB704FBAF3616D4369ABD7 /* Sources */,
+				3F3EE5C24DBC8CF6E39D136821D9AD7A /* Frameworks */,
+				6027F6767D4F0F08AD5CBCE9E4192827 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BEMCheckBox;
+			productName = BEMCheckBox;
+			productReference = A8720B413780B6127BDD8BD1047479DC /* BEMCheckBox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C366E9E23E09640A4037C2DB020E88A2 /* JJMaterialTextField-JJMaterialTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF82CC745BE7841B6E1FD76943E6DA6 /* Build configuration list for PBXNativeTarget "JJMaterialTextField-JJMaterialTextField" */;
+			buildPhases = (
+				8B01DA1BF1900C2436E39D15E30572A6 /* Sources */,
+				65569E311BFF39A18FC70CFAC4368552 /* Frameworks */,
+				2F1FD0740C187AA60473DE3FF7ADCAB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JJMaterialTextField-JJMaterialTextField";
+			productName = "JJMaterialTextField-JJMaterialTextField";
+			productReference = B0FFE64E1C69B83A9B6F106CFE5D9FCA /* JJMaterialTextField.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D302A3C3F87407D4A4E2C9F357984E5D /* VeeContactPicker-VeeContactPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1AEE27D163A9AF8CE61D6B4A0586448 /* Build configuration list for PBXNativeTarget "VeeContactPicker-VeeContactPicker" */;
+			buildPhases = (
+				165B3D4AE19E6CBFC38CEC65C90513BC /* Sources */,
+				0B3C50CE8EDD971959EB0217D4FE765C /* Frameworks */,
+				96CBCF26286199B8678166DBAB64923C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VeeContactPicker-VeeContactPicker";
+			productName = "VeeContactPicker-VeeContactPicker";
+			productReference = 416B1A98E1AB5DDE8EF0DAE3CCAB5E01 /* VeeContactPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D481F3E5E0C80C80F676A2570DD19EA6 /* FLKAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DAB9F850AD3D2D4BCD66C48BDC5F636 /* Build configuration list for PBXNativeTarget "FLKAutoLayout" */;
+			buildPhases = (
+				A4C34BFFD91CEA81A4EDEDF28732C92E /* Sources */,
+				ED2BB08E8F0DAEC7A6A9F212E9DF9638 /* Frameworks */,
+				5DAD03C38BE678D106AB36FD1D811671 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLKAutoLayout;
+			productName = FLKAutoLayout;
+			productReference = 0D327128804DA03097BF83D88E24AEEF /* FLKAutoLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 25B361DDCF2B17A95F7D987000D4A0B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC19A72FB7D1DB0B2CC5F6C5CF2400F4 /* BEMCheckBox */,
+				D481F3E5E0C80C80F676A2570DD19EA6 /* FLKAutoLayout */,
+				171892E643977CACF1C966931DF0970F /* JJMaterialTextField */,
+				C366E9E23E09640A4037C2DB020E88A2 /* JJMaterialTextField-JJMaterialTextField */,
+				9A0EB0D15CE1F9B72D5D910566678F7B /* Pods-SmartOffice */,
+				859A42CA208CA9169B0B4FCF37FD46E1 /* Pods-SmartOfficeTests */,
+				36FF5CB4F246CE311E2F962A8367A420 /* Pods-SmartOfficeUITests */,
+				04466F4E2E85B9A9B3B4405E1A9C161F /* SOMotionDetector */,
+				77AFFB34AF2C035832A4AF49FC82A353 /* Toast */,
+				79AED3B93470BA00DC788863CED630E7 /* UIImageView-AGCInitials */,
+				74D8DCE0823E2699B3DEC027456D4AC0 /* VeeContactPicker */,
+				D302A3C3F87407D4A4E2C9F357984E5D /* VeeContactPicker-VeeContactPicker */,
+				5ECD488BD72C0D43A14802B350158ABF /* WWCalendarTimeSelector */,
+				563519234DD243D4381F40A59D8FDB16 /* WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F1FD0740C187AA60473DE3FF7ADCAB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44E70A3440BBB03E4CFDB0A96F0FFD5 /* edit_button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301DB84521CD4C31388BBC7512BE6260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE2D974F20E10950015A9CA93957D15 /* WWCalendarTimeSelectorStoryboardBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DD91E0FF9A19F9F8CDFCB1EA4CE94C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE754700942D99EB8B559224CB621A91 /* JJMaterialTextField.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CBCF26286199B8678166DBAB64923C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FE939D13D07E9D3EDA71186CFD13B0 /* VeeContactPickerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6476AFDE1F7DC82211F710DFDC11E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C52860D9CCD57C5E7EB936A653695D /* WWCalendarTimeSelector.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D8313407A5259B0C5AEC8765692471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654A6C544A4F0DB034B80A4379E4C31A /* VeeContactPicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AF573C0DC1BF05FE5738C0396CA45F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A340A7C8BB9FC957E25C0AE62D7491B /* AGCInitialsColors.m in Sources */,
+				EF47484D8A5F4318C3A3412848119B30 /* UIImageView+AGCInitials.m in Sources */,
+				74287C54736D4457D409BF4984FC90C2 /* UIImageView-AGCInitials-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165B3D4AE19E6CBFC38CEC65C90513BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3166FED8D0EB704FBAF3616D4369ABD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5BB6C5CBF58128AE6C9AA5950F2AB1 /* BEMAnimationManager.m in Sources */,
+				A80BA46B97BD1273DAA97821F4DFB963 /* BEMCheckBox-dummy.m in Sources */,
+				55CF856B8BA12BB2472B08B6D5D9125A /* BEMCheckBox.m in Sources */,
+				20909B18A454E0797F343764AD7FCA11 /* BEMCheckBoxGroup.m in Sources */,
+				3F4B331558094E9EBADCB4BBE25519C0 /* BEMPathManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5277B2777575FCEB8F44F9249E86D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95A6C1F07EC5676B2A3D3428F24C5F1 /* Pods-SmartOfficeUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CDDAC69134E24C672A41133DCFA84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E43D1295E481368EF0F14DFB39671C /* NSObject+VeeCommons.m in Sources */,
+				22D7C24B73D6B2B9E5E07A1160667ADE /* UILabel+VeeBoldify.m in Sources */,
+				72696DF95282552F2A9A323CA138112A /* VeeABRecord.m in Sources */,
+				582C34A2CDE5EAEEB5CAE4CF45852DE5 /* VeeABRecordsImporter.m in Sources */,
+				E2D392D8290C1E525047D2B62D673780 /* VeeAddressBook.m in Sources */,
+				DCA0B626A03CB895AD9BAC3A0F2ACAE9 /* VeeCommons.m in Sources */,
+				5E517D611BECCC4AD5402CB7E3BB4393 /* VeeContact.m in Sources */,
+				DB8FCABFC2E1BBAB56D2F66F82A6DE8A /* VeeContactCellConfiguration.m in Sources */,
+				F9C947DDCEB74B2CFC542321D223E57F /* VeeContactFactory.m in Sources */,
+				A4C6D9033F3E2091C4E635268C358970 /* VeeContactPicker-dummy.m in Sources */,
+				72414DCF83EF7896861A767EB1B6E146 /* VeeContactPickerAppearanceConstants.m in Sources */,
+				6E7AC22CF85ED0F39AEAE1F762479A13 /* VeeContactPickerOptions.m in Sources */,
+				DBB5B2E09C037820DBD52D470BEBE9F1 /* VeeContactPickerStrings.m in Sources */,
+				AD0E605BC2B20A7393FF17AEEDF841F3 /* VeeContactPickerViewController.m in Sources */,
+				1DE64CED18120A3276F1E0569FD4F76B /* VeeContactProtFactoryProducer.m in Sources */,
+				D536F842E17AA7BB67BDEA4DA64170D9 /* VeeContactUITableViewCell.m in Sources */,
+				E2628A47F728B01974C0278856EB4142 /* VeePostalAddress.m in Sources */,
+				2FC3C279DEB88A46B480D6A6EEC5F38F /* VeeSectionedArrayDataSource.m in Sources */,
+				08C628AC6CF98F24308D8770F556FC2F /* VeeTableViewSearchDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B01DA1BF1900C2436E39D15E30572A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F626B4BAF5F6F5F1F933086C9D18E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE609E9E42048044F8CF0CB976C707F6 /* Pods-SmartOffice-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950F5FE4BD0423C55D45A8B39979E396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC92405BA93EDBB865648D92F8DC0DD /* Pods-SmartOfficeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C34BFFD91CEA81A4EDEDF28732C92E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF62EB2A34F18FCFB36406EEEEB38CF /* FLKAutoLayout-dummy.m in Sources */,
+				1A0259D6D5A39D04791A845662691CD3 /* FLKAutoLayoutPredicateList.m in Sources */,
+				2C6899F9E37B8733E04D3B1A476CB8BA /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */,
+				16F469A77BF0A1336D8D64EF3CB6A2D3 /* NSObject+FLKAutoLayoutDebug.m in Sources */,
+				5E7BF5933C974657A4E3071423F4F2E0 /* UIView+FLKAutoLayout.m in Sources */,
+				C8E208B201C9AA98135381F50485433E /* UIView+FLKAutoLayoutDebug.m in Sources */,
+				528C56CE29FADD77AB30BB054501C3F1 /* UIView+FLKAutoLayoutPredicate.m in Sources */,
+				1C3FC79817AACFB4214E07242FB07B2A /* UIViewController+FLKAutoLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCF6204FA2E219FF0D7041C759872AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFE7996331FF70636B1D4E8B14D0A9F /* JJMaterialTextField-dummy.m in Sources */,
+				95E59EC1AA3E74C6BE1928F4A1B5CC14 /* JJMaterialTextfield.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A313A2EB641C0C4586FD3015680FBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906E0B152AA5C525FB5FFA06A71114DD /* Duration.swift in Sources */,
+				50AA856A24765719CFDB6264633FD879 /* Int+Timepiece.swift in Sources */,
+				1414607E38BF88C34A1B79E7ABCBF37E /* NSCalendar+Timepiece.swift in Sources */,
+				E2A5DA411647237B1CC684687FAB248E /* NSDate+Timepiece.swift in Sources */,
+				FDADB7B6DFF52DDD89C81571BC308F5F /* NSDateComponents+Timepiece.swift in Sources */,
+				9286D618BB22618A814E34F0CBEC9693 /* String+Timepiece.swift in Sources */,
+				F1AD34E699411ACDFD3D8F5B72CC036B /* WWCalendarTimeSelector-dummy.m in Sources */,
+				F177DBA02A652DA9D021202DCD9488B2 /* WWCalendarTimeSelector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6122A28758B5244AE0BF3D4A5AF663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D882A3F9A2E6FE25EA79B03E0AD39456 /* SOLocationManager.m in Sources */,
+				CF9D5772B573ACCC00D88ADFAE4EB2E0 /* SOMotionDetector-dummy.m in Sources */,
+				63D4A5155DB9AF73D1BA62499B137634 /* SOMotionDetector.m in Sources */,
+				204309C790326FADF5E1CC2CCB19B0F4 /* SOStepDetector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5389C0C90E1231AE34F3327D328FC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECC00ECEA36405B060C670516910934 /* Toast-dummy.m in Sources */,
+				B5F5C38F15520BEFD4DCA00D9600BEBA /* UIView+Toast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2E8F02450EBD60DA1A50941E83F57F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B2BAA676F442C60503033D263907BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WWCalendarTimeSelector;
+			target = 5ECD488BD72C0D43A14802B350158ABF /* WWCalendarTimeSelector */;
+			targetProxy = FAB269F557190E370C43C9D320E8CB47 /* PBXContainerItemProxy */;
+		};
+		26A27F53B118FF620DD1639322E9A727 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle";
+			target = 563519234DD243D4381F40A59D8FDB16 /* WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle */;
+			targetProxy = C697F91F54787087CF6F60339C4F1263 /* PBXContainerItemProxy */;
+		};
+		3B12B58A14488CF658127A1A29B02426 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VeeContactPicker;
+			target = 74D8DCE0823E2699B3DEC027456D4AC0 /* VeeContactPicker */;
+			targetProxy = 514392E0173FFF648CFFEC0B3B36E365 /* PBXContainerItemProxy */;
+		};
+		4FB34E7CADCF5C6AE4D38B6E58FFA06F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JJMaterialTextField;
+			target = 171892E643977CACF1C966931DF0970F /* JJMaterialTextField */;
+			targetProxy = 2C75D6D865E541E47554A60544808026 /* PBXContainerItemProxy */;
+		};
+		51DC9752DC3ABCCA9F7F6CEF1FE7CB81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BEMCheckBox;
+			target = BC19A72FB7D1DB0B2CC5F6C5CF2400F4 /* BEMCheckBox */;
+			targetProxy = C2F4EBA26E75CD7CBA01562E8C250806 /* PBXContainerItemProxy */;
+		};
+		818BE68BA96CFE8EAC98497060494E11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIImageView-AGCInitials";
+			target = 79AED3B93470BA00DC788863CED630E7 /* UIImageView-AGCInitials */;
+			targetProxy = 2B4FF30F595DA49A805DCC9C32932D41 /* PBXContainerItemProxy */;
+		};
+		850DB54E88B06529BC851E7850880EC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIImageView-AGCInitials";
+			target = 79AED3B93470BA00DC788863CED630E7 /* UIImageView-AGCInitials */;
+			targetProxy = 2A4E797CD5B79D4211535164CAC9AD3C /* PBXContainerItemProxy */;
+		};
+		94B77BAEE59A5C53584AE11D76EDBF28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLKAutoLayout;
+			target = D481F3E5E0C80C80F676A2570DD19EA6 /* FLKAutoLayout */;
+			targetProxy = 087952FC9CD5FF1CE43DE291AFC297F1 /* PBXContainerItemProxy */;
+		};
+		A91990F40E8337164FA2FCE5E06C61DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SOMotionDetector;
+			target = 04466F4E2E85B9A9B3B4405E1A9C161F /* SOMotionDetector */;
+			targetProxy = 830BD6EC5E8B880FE175ED8683DD0E1E /* PBXContainerItemProxy */;
+		};
+		AE130B37857BF4F2965D23F9B017B87D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toast;
+			target = 77AFFB34AF2C035832A4AF49FC82A353 /* Toast */;
+			targetProxy = 8B89C0C9DA3C9DB8D698E8E99E31F147 /* PBXContainerItemProxy */;
+		};
+		B19ADC56755463DE7B2A7D265808A188 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "VeeContactPicker-VeeContactPicker";
+			target = D302A3C3F87407D4A4E2C9F357984E5D /* VeeContactPicker-VeeContactPicker */;
+			targetProxy = BEF46D81E79E6F690C84DB4A32D71DB9 /* PBXContainerItemProxy */;
+		};
+		C14A14F2912242DFA2B4B85F700C8C73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JJMaterialTextField-JJMaterialTextField";
+			target = C366E9E23E09640A4037C2DB020E88A2 /* JJMaterialTextField-JJMaterialTextField */;
+			targetProxy = 6EFA78342FB810308CB9E957315CDA65 /* PBXContainerItemProxy */;
+		};
+		E397F6662E5FC44A11664E15D6A9B8A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLKAutoLayout;
+			target = D481F3E5E0C80C80F676A2570DD19EA6 /* FLKAutoLayout */;
+			targetProxy = AFCF1D21A8F957D80A507A03B126760C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		04C16BBF681A5C0E7368DE320004351B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF4300C23179CDE22980FCAAF6351688 /* JJMaterialTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JJMaterialTextField/JJMaterialTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JJMaterialTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JJMaterialTextField/JJMaterialTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JJMaterialTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1553C4BF2A394D3FC6ABD04AEC91B8B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8275F8CD3A9D95080118667889D98B7D /* WWCalendarTimeSelector.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WWCalendarTimeSelector";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/WWCalendarTimeSelector/ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WWCalendarTimeSelectorStoryboardBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1FCFBDB9E407C6438503A7D069B930E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF4300C23179CDE22980FCAAF6351688 /* JJMaterialTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JJMaterialTextField/JJMaterialTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JJMaterialTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JJMaterialTextField/JJMaterialTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JJMaterialTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B47CB371D2E41D6707E466696F8D090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8275F8CD3A9D95080118667889D98B7D /* WWCalendarTimeSelector.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WWCalendarTimeSelector/WWCalendarTimeSelector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WWCalendarTimeSelector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WWCalendarTimeSelector/WWCalendarTimeSelector.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WWCalendarTimeSelector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36DE09D57E4379E0BD330D33D50F2DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A85A4AF709A3FE71313BE49582931A /* VeeContactPicker.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VeeContactPicker";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/VeeContactPicker/ResourceBundle-VeeContactPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = VeeContactPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		38B9A2996D74143D05515EE3C5597C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A85A4AF709A3FE71313BE49582931A /* VeeContactPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VeeContactPicker/VeeContactPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VeeContactPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VeeContactPicker/VeeContactPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = VeeContactPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41B2AD136E9AFC4648BAD9003D79D0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A85A4AF709A3FE71313BE49582931A /* VeeContactPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VeeContactPicker/VeeContactPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VeeContactPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VeeContactPicker/VeeContactPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VeeContactPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A262D8CA33285F439B4A28E16D4808E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8275F8CD3A9D95080118667889D98B7D /* WWCalendarTimeSelector.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WWCalendarTimeSelector/WWCalendarTimeSelector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WWCalendarTimeSelector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WWCalendarTimeSelector/WWCalendarTimeSelector.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WWCalendarTimeSelector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		580F30869D2DA435AFA3F5204EE594D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1549967139480793F27D114FA95F4C00 /* FLKAutoLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FLKAutoLayout/FLKAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLKAutoLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLKAutoLayout/FLKAutoLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FLKAutoLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A658A62B6AFF8A8D949A777FD1542A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF4300C23179CDE22980FCAAF6351688 /* JJMaterialTextField.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JJMaterialTextField";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/JJMaterialTextField/ResourceBundle-JJMaterialTextField-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JJMaterialTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		64B77E6278B5311C01E23D34E6F44F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8275F8CD3A9D95080118667889D98B7D /* WWCalendarTimeSelector.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WWCalendarTimeSelector";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/WWCalendarTimeSelector/ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WWCalendarTimeSelectorStoryboardBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6586863D24A9C3525429C5CC72E99E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEF0EE86DD4F5944537FE5EEBF52E016 /* BEMCheckBox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BEMCheckBox/BEMCheckBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEMCheckBox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BEMCheckBox/BEMCheckBox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BEMCheckBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		738F0B46C0B000AA43ADF9C5B5C5D65A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1538C5D137169A63E4941057388D336F /* SOMotionDetector.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SOMotionDetector/SOMotionDetector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SOMotionDetector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SOMotionDetector/SOMotionDetector.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SOMotionDetector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84F6D60BB0C18547BB022D9D92985A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1538C5D137169A63E4941057388D336F /* SOMotionDetector.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SOMotionDetector/SOMotionDetector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SOMotionDetector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SOMotionDetector/SOMotionDetector.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SOMotionDetector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8BADA29EDACD2B04A36AC2EB59A672D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A85A4AF709A3FE71313BE49582931A /* VeeContactPicker.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VeeContactPicker";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/VeeContactPicker/ResourceBundle-VeeContactPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = VeeContactPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9C323CA0D6EFE9D67DED5CBEB9B0DB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8458F8A742FA64787E31D43D7995A962 /* Pods-SmartOfficeUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartOfficeUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartOfficeUITests/Pods-SmartOfficeUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartOfficeUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4BC5A1FA87BB55B4896865D593986EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEF0EE86DD4F5944537FE5EEBF52E016 /* BEMCheckBox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BEMCheckBox/BEMCheckBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEMCheckBox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BEMCheckBox/BEMCheckBox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BEMCheckBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8791B11CE97B09AABF1BBADE0BA76E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE5755B0E695E6D58179EDFDB25407BD /* Pods-SmartOfficeUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartOfficeUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartOfficeUITests/Pods-SmartOfficeUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartOfficeUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB04D6963D1AC084A6F2C0A07E3360D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7694E5DC68C3E3B51F3689A5B2F8EAC /* Pods-SmartOfficeTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartOfficeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartOfficeTests/Pods-SmartOfficeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartOfficeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B12678957F8FF0C36E2A12B21423FA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F5948B32A37757FAF611C8BC9E1E8E /* Pods-SmartOfficeTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartOfficeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartOfficeTests/Pods-SmartOfficeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartOfficeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7777F9FEB8E4EDA294B0159DE756D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711DD4427A17A538ABE5BB13EBCBA7EB /* Toast.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Toast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9C88413FA44307AEDC03AC25C540CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3170DE4773A35BC6EACB32594F95D1C /* UIImageView-AGCInitials.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIImageView-AGCInitials/UIImageView-AGCInitials-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIImageView-AGCInitials/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIImageView-AGCInitials/UIImageView-AGCInitials.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIImageView_AGCInitials;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D26D4445ACC10B09E608B87557A48E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711DD4427A17A538ABE5BB13EBCBA7EB /* Toast.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Toast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDEB0B704859F760B6A26CC90FFF91A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE3805D4FB14E235662EA83711D9628 /* Pods-SmartOffice.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartOffice/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartOffice/Pods-SmartOffice.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartOffice;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E082BF9D4939EBB8CA6EB02D4706B727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3170DE4773A35BC6EACB32594F95D1C /* UIImageView-AGCInitials.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIImageView-AGCInitials/UIImageView-AGCInitials-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIImageView-AGCInitials/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIImageView-AGCInitials/UIImageView-AGCInitials.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIImageView_AGCInitials;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E95A526798A78BFDBA35E50E68304E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0464F073EB0C7693A4E61268AE9377F /* Pods-SmartOffice.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartOffice/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartOffice/Pods-SmartOffice.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartOffice;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED8E7EC6ABDC864325BC6ADB6557BF9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1549967139480793F27D114FA95F4C00 /* FLKAutoLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FLKAutoLayout/FLKAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLKAutoLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLKAutoLayout/FLKAutoLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FLKAutoLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F184ED40790DD7D009F69351481B4663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF4300C23179CDE22980FCAAF6351688 /* JJMaterialTextField.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JJMaterialTextField";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/JJMaterialTextField/ResourceBundle-JJMaterialTextField-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JJMaterialTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		020E578A97CC1DF9DC645C21BD1D2A8D /* Build configuration list for PBXNativeTarget "BEMCheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6586863D24A9C3525429C5CC72E99E23 /* Debug */,
+				A4BC5A1FA87BB55B4896865D593986EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20C47E0849C4CE53A4E6AC35B49323BF /* Build configuration list for PBXNativeTarget "WWCalendarTimeSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B47CB371D2E41D6707E466696F8D090 /* Debug */,
+				4A262D8CA33285F439B4A28E16D4808E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30493825F38DD99DA09C083612DA83FC /* Build configuration list for PBXNativeTarget "VeeContactPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B2AD136E9AFC4648BAD9003D79D0B3 /* Debug */,
+				38B9A2996D74143D05515EE3C5597C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DE8772E01CDFCA3B0E03346C68F84C6 /* Build configuration list for PBXNativeTarget "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B77E6278B5311C01E23D34E6F44F30 /* Debug */,
+				1553C4BF2A394D3FC6ABD04AEC91B8B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656A56A0892DCBDCDD19F5AC1359CB83 /* Build configuration list for PBXNativeTarget "Pods-SmartOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95A526798A78BFDBA35E50E68304E6A /* Debug */,
+				DDEB0B704859F760B6A26CC90FFF91A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A4C4A7B0DF323A52ECF799E10A789E /* Build configuration list for PBXNativeTarget "Pods-SmartOfficeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB04D6963D1AC084A6F2C0A07E3360D8 /* Debug */,
+				B12678957F8FF0C36E2A12B21423FA8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF82CC745BE7841B6E1FD76943E6DA6 /* Build configuration list for PBXNativeTarget "JJMaterialTextField-JJMaterialTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A658A62B6AFF8A8D949A777FD1542A0 /* Debug */,
+				F184ED40790DD7D009F69351481B4663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8555EA0286368F83F8036918AC243F35 /* Build configuration list for PBXNativeTarget "JJMaterialTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FCFBDB9E407C6438503A7D069B930E9 /* Debug */,
+				04C16BBF681A5C0E7368DE320004351B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		868F2CBC81EF69A43EB37F0726DF721D /* Build configuration list for PBXNativeTarget "Pods-SmartOfficeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8791B11CE97B09AABF1BBADE0BA76E6 /* Debug */,
+				9C323CA0D6EFE9D67DED5CBEB9B0DB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DAB9F850AD3D2D4BCD66C48BDC5F636 /* Build configuration list for PBXNativeTarget "FLKAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8E7EC6ABDC864325BC6ADB6557BF9F /* Debug */,
+				580F30869D2DA435AFA3F5204EE594D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EE276951A92C4A110840D3B49143709 /* Build configuration list for PBXNativeTarget "SOMotionDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738F0B46C0B000AA43ADF9C5B5C5D65A /* Debug */,
+				84F6D60BB0C18547BB022D9D92985A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1AEE27D163A9AF8CE61D6B4A0586448 /* Build configuration list for PBXNativeTarget "VeeContactPicker-VeeContactPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BADA29EDACD2B04A36AC2EB59A672D6 /* Debug */,
+				36DE09D57E4379E0BD330D33D50F2DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B223846288F767866B8EF7B9068CDA6A /* Build configuration list for PBXNativeTarget "UIImageView-AGCInitials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C88413FA44307AEDC03AC25C540CF0 /* Debug */,
+				E082BF9D4939EBB8CA6EB02D4706B727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B240C408943341921D2F8C3B35849C2B /* Build configuration list for PBXNativeTarget "Toast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26D4445ACC10B09E608B87557A48E05 /* Debug */,
+				B7777F9FEB8E4EDA294B0159DE756D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,45 @@
+//
+//  SmartOffice.h
+//  SmartOffice
+//
+//  Created by FNSPL on 13/06/17.
+//  Copyright © 2017 FNSPL. All rights reserved.
+//
+
+//
+// Prefix header for all source files of the 'The Dugout' target in the 'The Dugout' project
+//
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import <CoreMotion/CoreMotion.h>
+#import "UIView+Additions.h"
+#import <CoreBluetooth/CoreBluetooth.h>
+#import <CoreLocation/CoreLocation.h>
+#import <QuartzCore/QuartzCore.h>
+#import <AVFoundation/AVFoundation.h>
+#import "Database.h"
+#import "UIView+Toast.h"
+#import "AFNetworking.h"
+#import "Constants.h"
+#import "AppDelegate.h"
+#import "ViewController.h"
+#import "NavigineSDK.h"
+#import "popView.h"
+#import "KxMenu.h"
+#import "Database.h"
+#import <AVFoundation/AVFoundation.h>
+#import <HueSDK_iOS/HueSDK.h>
+#import "PHLoadingViewController.h"
+#import <MessageUI/MessageUI.h>
+#import <EventKit/EventKit.h>
+#import "UIColor+HexString.h"
+#import <Contacts/Contacts.h>
+#import <ContactsUI/ContactsUI.h>
+#import "SVProgressHUD.h"
+
+#endif
+
